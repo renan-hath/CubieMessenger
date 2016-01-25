@@ -1,0 +1,23 @@
+version: 2.0.2
+apkFileName: Cubie.v1.1.539.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '19'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '539'
+  versionName: 1.1.539
+sharedLibrary: false
+unknownFiles:
+  templates/release-notes.vm: '8'
+  org/codehaus/jackson/map/VERSION.txt: '8'
+  org/codehaus/jackson/impl/VERSION.txt: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  jsr305_annotations/v0_r47/V0_r47.gwt.xml: '8'
+doNotCompress:
+- resources.arsc

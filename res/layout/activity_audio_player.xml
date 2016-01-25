@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_audio_player0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip">
+        <TextView android:id="@id/senderTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/audioTitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/senderTextView" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/audioAlbumArt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_icon_normal" android:minWidth="@dimen/item_msg_max_width" android:minHeight="@dimen/item_msg_max_width" android:layout_below="@id/audioTitleTextView" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/seekBarBoard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/audioAlbumArt">
+            <TextView android:id="@id/audioTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+            <SeekBar android:id="@id/audioSeekBar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="100" android:progressDrawable="@drawable/progress_bar_audio" android:thumb="@drawable/seek_bar_audio_player_thumb" android:thumbOffset="0.0dip" android:layout_weight="1.0" />
+            <TextView android:id="@id/audioDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_audio_player2" android:scaleType="fitXY" android:layout_below="@id/seekBarBoard" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/playBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_audio_player_play" android:layout_below="@id/divider" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/prevBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_audio_player_prev" android:layout_toLeftOf="@id/playBtn" android:layout_below="@id/divider" />
+        <ImageButton android:id="@id/nextBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_audio_player_next" android:layout_toRightOf="@id/playBtn" android:layout_below="@id/divider" />
+        <ListView android:id="@id/audioPlayerList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:dividerHeight="4.0dip" android:choiceMode="singleChoice" android:layout_below="@id/playBtn" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/forum_default_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/boardListView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#ff94d1d1" android:dividerHeight="0.5dip" />
+    <TextView android:textSize="16.0sp" android:id="@id/tutorialTextView" android:background="@drawable/forum_board_item_bg" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:text="@string/forum_favorite_is_empty_tutorial" android:layout_centerVertical="true" />
+    <ProgressBar android:id="@id/mainForumViewProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/viewCategoryListBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_forum_search" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

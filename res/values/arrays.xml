@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aviary_crop_labels">
+        <item>@string/feather_original</item>
+        <item>@string/feather_square</item>
+        <item>@string/feather_custom</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>2.35:1</item>
+    </string-array>
+    <string-array name="aviary_crop_values">
+        <item>-1:-1</item>
+        <item>1:1</item>
+        <item>0:0</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>235:100</item>
+    </string-array>
+    <integer-array name="aviary_draw_brush_sizes">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="aviary_draw_fill_colors">
+        <item>0x0</item>
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+        <item>0x0</item>
+    </integer-array>
+    <integer-array name="aviary_spot_brush_sizes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="aviary_text_fill_colors">
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+    </integer-array>
+    <array name="borders_list" />
+</resources>

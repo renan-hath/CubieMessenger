@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/forum_default_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/createArticleBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/create_forum_article_title" android:layout_alignParentBottom="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/createArticleBtn" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/forum_article_create_title_icon" />
+                <EditText android:textSize="16.0sp" android:id="@id/articleTitleEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:hint="@string/forum_article_placeholder" android:maxLines="20" android:inputType="textMultiLine" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/selectArticleIconView" android:background="@drawable/forum_select_image_bg" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/contentLayout" android:layout_centerHorizontal="true">
+                <Button android:textColor="@color/item_forum_board_update_time_text" android:layout_gravity="center" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forum_article_image" android:drawableTop="@drawable/forum_select_image_icon" android:drawablePadding="5.0dip" />
+            </FrameLayout>
+            <ImageView android:id="@id/articlePictureImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:scaleType="fitCenter" android:layout_below="@id/contentLayout" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

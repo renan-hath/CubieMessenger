@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shareItem" android:title="@string/share" android:showAsAction="always" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:title="@string/account_setting_title" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/editIconItem" android:title="@string/change_profile_icon" android:showAsAction="withText" />
+            <item android:id="@id/editCoverItem" android:title="@string/change_profile_cover" android:showAsAction="withText" />
+            <item android:id="@id/editNicknameItem" android:title="@string/modify_nickname" android:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

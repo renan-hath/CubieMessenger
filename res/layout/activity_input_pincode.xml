@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_flowers" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ScrollView android:id="@id/inputPincodeScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/body" android:background="@drawable/bg_form" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                <ImageView android:id="@id/phoneImage" android:background="@drawable/phone_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="3.0dip" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/regist_text_color" android:layout_gravity="center" android:id="@id/inputtedPhoneNumberTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/descriptionTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/description_input_pincode_and_send_sms" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/pincodeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pincode_label" />
+                <EditText android:textSize="16.0sp" android:id="@id/pincodeEditText" android:layout_width="160.0dip" android:layout_height="wrap_content" android:inputType="number" />
+            </LinearLayout>
+            <Button android:textSize="16.0sp" android:textStyle="bold" android:id="@id/applyAccountBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verify_pincode" style="@style/NemoPositiveButton" />
+            <LinearLayout android:orientation="vertical" android:id="@id/callerIdLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/div_line" />
+                <TextView android:textColor="#ff000000" android:id="@id/sendSmsDescTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/send_sms_by_user_desc" />
+                <Button android:id="@id/sendSmsBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send_sms_by_user" style="@style/NemoNegativeButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/aviary_main_iap_dialog" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="100.0" android:layout_weight="?aviaryIAPDialogWidthWeight" style="?attr/aviaryIAPDialogMainLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <requestFocus />
+    <RelativeLayout android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="?aviaryIAPDialogMarginTopWeight" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="?aviaryIAPDialogHeightWeight">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/aviaryIAPDialogGridTopStyle" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aviary_head" android:background="@android:color/white" android:padding="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/aviary_icon" style="?attr/aviaryIAPDialogIcon" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                <com.aviary.android.feather.widget.AviaryTextView android:id="@id/aviary_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/aviaryIAPDialogTitleStyle">
+                    <requestFocus />
+                </com.aviary.android.feather.widget.AviaryTextView>
+                <com.aviary.android.feather.widget.AviaryTextView android:id="@id/aviary_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/aviaryIAPDialogTextStyle" />
+            </LinearLayout>
+            <com.aviary.android.feather.widget.AviaryButton android:id="@id/aviary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feather_download" style="?attr/aviaryIAPDialogDownloadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/aviary_workspace_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.aviary.android.feather.widget.AviaryWorkspace android:id="@id/aviary_workspace" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/aviaryIAPDialogWorkspaceStyle" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/aviaryIAPDialogShadowTop" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?attr/aviaryIAPDialogShadowBottom" />
+                <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/aviary_iap_download_error_message" />
+                <include android:id="@id/aviary_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/aviary_progress_medium_inverse" />
+            </RelativeLayout>
+            <RelativeLayout android:background="?aviaryIAPDialogGridBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+                <com.aviary.android.feather.widget.AviaryWorkspaceIndicator android:gravity="center" android:id="@id/aviary_workspace_indicator" android:layout_width="fill_parent" android:layout_centerInParent="true" style="?attr/aviaryIAPDialogWorkspaceIndicatorStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

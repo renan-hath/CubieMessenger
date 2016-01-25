@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff545454" android:autoLink="all" android:id="@id/textReplyContentTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+    <FrameLayout android:background="@drawable/forum_picture_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginRight="23.0dip" android:layout_below="@id/textReplyContentTextView" android:layout_centerHorizontal="true">
+        <com.liquable.volley.toolbox.NetworkImageView android:id="@id/pictureReplyImageView" android:layout_width="fill_parent" android:layout_height="@dimen/article_reply_picture_thumbnail_height" android:scaleType="centerCrop" />
+    </FrameLayout>
+</merge>

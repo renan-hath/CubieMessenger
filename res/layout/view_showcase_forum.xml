@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/showCaseTop" android:padding="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/showCaseIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:src="@drawable/forum_tutorial_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/showCaseTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forum_tutorial_intro" android:layout_below="@id/showCaseIcon" />
+    </RelativeLayout>
+</RelativeLayout>

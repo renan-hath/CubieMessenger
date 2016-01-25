@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="#ffe8e8e8" android:paddingTop="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/shopBtnLayout" android:background="#ffe5e9ea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:background="#ffd7d7d7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <include layout="@layout/view_manage_custom_sticker_button" />
+        </LinearLayout>
+        <GridView android:scrollbarAlwaysDrawVerticalTrack="true" android:gravity="center" android:id="@id/gridView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/action_item_btn" android:drawSelectorOnTop="true" android:horizontalSpacing="10.0dip" android:verticalSpacing="8.0dip" android:stretchMode="columnWidth" android:columnWidth="64.0dip" android:numColumns="auto_fit" android:layout_above="@id/shopBtnLayout" />
+    </RelativeLayout>
+</merge>

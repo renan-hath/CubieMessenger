@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_form" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/groupNameTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/chat_group_name_label" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <EditText android:textSize="14.0sp" android:id="@id/groupNameEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:singleLine="true" android:layout_below="@id/groupNameTitle" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/selectMemberTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/groupNameEditText" />
+        <ListView android:id="@id/selectedMemberListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.0dip" android:listSelector="@android:color/transparent" android:divider="@drawable/div_selectable_list" android:layout_below="@id/selectMemberTitle" />
+    </RelativeLayout>
+    <Button android:textSize="18.0sp" android:id="@id/confirmCreateGroupBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/create_chat_group" />
+</LinearLayout>

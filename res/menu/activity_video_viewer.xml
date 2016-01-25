@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shareItem" android:title="@string/share" android:showAsAction="always" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:title="@string/action_item_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/externalIntentItem" android:title="@string/using_external_app" android:showAsAction="never" />
+            <item android:id="@id/forwardItem" android:title="@string/forward" android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

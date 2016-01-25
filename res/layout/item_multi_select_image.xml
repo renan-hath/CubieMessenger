@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbnailImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/selectedMaskView" android:background="#55cfb997" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/thumbnailImageView" android:layout_alignTop="@id/thumbnailImageView" android:layout_alignRight="@id/thumbnailImageView" android:layout_alignBottom="@id/thumbnailImageView" />
+    <ImageView android:id="@id/imageSelectView" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

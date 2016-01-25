@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_history" android:id="@id/historyItem" android:title="@string/chat_group_media_history_title" android:showAsAction="always" />
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:title="@string/chat_setting_title" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/aboutItem" android:visible="false" android:title="@string/about_chat_group" android:showAsAction="withText" />
+            <item android:id="@id/clearMessageItem" android:title="@string/clear_chat_history" android:showAsAction="withText" />
+            <item android:id="@id/exportItem" android:title="@string/export_message" android:showAsAction="withText" />
+            <item android:id="@id/leaveItem" android:title="@string/delete_and_leave_group" android:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

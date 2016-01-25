@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/wallpaper_setting_title">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.wallpaper.WallpaperSettingActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/font_size_setting_title" android:key="font_size_preference" />
+    <PreferenceScreen android:title="@string/voice_msg_setting_title" android:key="voice_msg_preference" />
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/press_enter_to_send_title" android:key="press_enter_to_send_preference" />
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/recent_picture_group_setting_title" android:key="recent_picture_group_setting_preference" android:summary="@string/recent_picture_group_setting_summary" />
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/rotate_chat_room_title" android:key="auto_rotate_chatting_activity_preference" />
+</PreferenceScreen>

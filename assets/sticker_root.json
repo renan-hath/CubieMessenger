@@ -1,0 +1,65 @@
+{
+  "@class": "com.liquable.nemo.model.sticker.StickerRootDto",
+  "stickerVersion": 1,
+  "revision": 1,
+  "upgradeNotice": "",
+  "categories": [
+    {
+      "code": "genie"
+    },
+    {
+      "code": "seaotter"
+    },
+    {
+      "code": "cupcake"
+    },
+    {
+      "code": "dali"
+    },
+    {
+      "code": "madbros"
+    },
+    {
+      "code": "pockymoGerm"
+    },
+    {
+      "code": "girlcomic"
+    },
+    {
+      "code": "rageface"
+    },
+    {
+      "code": "rabbit"
+    }
+  ],
+  "canSends": {
+    "cupcake": [
+      "cupcake"
+    ],
+    "girlcomic": [
+      "girlcomic"
+    ],
+    "genie": [
+      "genie"
+    ],
+    "madbros": [
+      "madbros"
+    ],
+    "seaotter": [
+      "seaotter"
+    ],
+    "dali": [
+      "dali"
+    ],
+    "pockymoGerm": [
+      "pockymoGerm"
+    ],
+    "rageface": [
+      "rageface"
+    ],
+    "rabbit": [
+      "rabbit"
+    ]
+  },
+  "canNotVisiblePackageCodes": []
+}

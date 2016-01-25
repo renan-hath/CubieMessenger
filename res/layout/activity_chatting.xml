@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activityRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.liquable.nemo.widget.Wallpaper android:id="@id/chattingWallpaper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" android:scaleType="matrix" />
+    <RelativeLayout android:id="@id/chattingLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="bottom" android:id="@id/chattingActivityInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.liquable.nemo.chat.paint.PaintWidget android:layout_gravity="bottom" android:id="@id/paintWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.liquable.nemo.chat.paint.PaintStickerWidget android:layout_gravity="bottom" android:id="@id/paintStickerWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.liquable.nemo.chat.paint.PaintEmojiWidget android:layout_gravity="bottom" android:id="@id/paintEmojiWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.liquable.nemo.chat.widget.VoiceRecorderWidget android:layout_gravity="bottom" android:id="@id/voiceRecordWindow" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.liquable.nemo.chat.widget.InputMessageWidget android:layout_gravity="bottom" android:id="@id/inputMessageWidget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/msgLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" android:layout_marginBottom="48.0dip" android:layout_above="@id/chattingActivityInput">
+            <com.liquable.nemo.widget.ListViewWithSizeChangedListener android:id="@id/messagesListView" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:transcriptMode="normal" android:cacheColorHint="@null" android:divider="#00000000" android:dividerHeight="0.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/showMediaStateDetailBtn" android:background="@drawable/bg_connection_state_red_repeat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_show_media_state_details" android:layout_alignParentRight="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mediaStateTextView" android:background="@drawable/bg_connection_state_red_repeat" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/warning_external_media_unmount" android:layout_toLeftOf="@id/showMediaStateDetailBtn" />
+                <com.liquable.nemo.chat.ConnectionStateTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/connectionStateTextView" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <com.liquable.nemo.status.view.ChatStatusView android:id="@id/chatStatusView" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.liquable.nemo.chat.widget.MediaWidget android:id="@id/mediaWidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/chattingActivityInput" />
+        <FrameLayout android:id="@id/emojiPopupMask" android:background="#aa000000" android:focusable="true" android:focusableInTouchMode="true" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/msgLayout" android:layout_alignParentTop="true" />
+        <com.liquable.nemo.chat.widget.EmojiWidget android:id="@id/emojiWindow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_above="@id/chattingActivityInput" android:layout_alignParentTop="true" />
+        <com.liquable.nemo.chat.paint.PaintTextWidget android:id="@id/paintTextWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" />
+        <com.liquable.nemo.chat.widget.YoutubeWidget android:id="@id/youtubeWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

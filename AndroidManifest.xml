@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.liquable.nemo" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <permission android:name="com.liquable.nemo.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.liquable.nemo.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:label="Cubie Internal Only Permission" android:name="com.liquable.nemo.android.INTERNAL_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.liquable.nemo.android.INTERNAL_PERMISSION"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.liquable.nemo.NemoApplication" android:theme="@style/NemoTheme" android:debuggable="true">
+        <activity android:name="com.liquable.nemo.friend.twitter.LoginToTwitterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.friend.twitter.TwitterFriendListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <meta-data android:name="com.aviary.android.feather.v1.API_KEY" android:value="g77k5vqe77dwe4ss"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:largeHeap="true" android:name="com.aviary.android.feather.FeatherActivity" android:screenOrientation="unspecified" android:theme="@style/AviaryTheme"/>
+        <receiver android:exported="true" android:name="com.aviary.android.feather.library.receivers.AviarySystemReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="com.google.android.maps"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.minimode.icon.portrait.normal" android:resource="@drawable/icon"/>
+        <meta-data android:name="com.sec.minimode.icon.landscape.normal" android:resource="@drawable/icon"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.ads.AdActivity"/>
+        <activity android:name="com.liquable.nemo.map.LocationPickerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.liquable.nemo.map.ShowLocationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.crittercism.NotificationActivity"/>
+        <activity android:name="com.liquable.nemo.IntroActivity" android:screenOrientation="portrait" android:theme="@style/NemoNoTitleTheme.Intro"/>
+        <activity android:name="com.liquable.nemo.DummyActivity" android:screenOrientation="portrait" android:theme="@style/NemoNoTitleTheme.Cover"/>
+        <activity android:name="com.liquable.nemo.CoverActivity" android:screenOrientation="portrait" android:theme="@style/NemoNoTitleTheme.Cover">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="main" android:pathPattern=".*" android:scheme="cubie"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.liquable.nemo.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.liquable.nemo.setting.SettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.wallpaper.WallpaperSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.liquable.nemo.chat.ChattingActivity" android:theme="@style/NemoTheme.Chatting" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.liquable.nemo.sticker.custom.ManageCustomStickerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.sticker.custom.ApplyCustomStickerEffectActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation" android:name="com.liquable.nemo.chat.YoutubePickerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.liquable.nemo.chat.media.board.MediaShareBoardActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.chat.CreateChatGroupActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.chat.ModifyChatGroupNameActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible"/>
+        <activity android:name="com.liquable.nemo.chat.ImagePreviewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.liquable.nemo.chat.OpenSecretImageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.liquable.nemo.chat.YoutubeWatchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.liquable.nemo.chat.YoutubeSendActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.liquable.nemo.chat.ImageViewerActivity" android:theme="@style/NemoActionBarOverLayTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.liquable.nemo.chat.VideoViewerActivity" android:theme="@style/NemoActionBarOverLayTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.liquable.nemo.chat.AudioPlayerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.main.VideoPreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.chat.AddMemberToExistGroupActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.group.ChatGroupInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.group.RemoveChatGroupMemberActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:name="com.liquable.nemo.share.SelectSharingChatGroupActivity" android:screenOrientation="portrait">
+            <intent-filter android:label="@string/intent_filter_app_name">
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.liquable.nemo.share.ShareMediaActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.share.ImageMultiSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.friend.facebook.FacebookFriendsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.friend.RecommendFriendActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.forum.CreateBoardActivity" android:screenOrientation="portrait" android:theme="@style/ForumTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.liquable.nemo.forum.EditBoardActivity" android:screenOrientation="portrait" android:theme="@style/ForumTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.liquable.nemo.forum.BoardListByCategoryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.forum.ArticleListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.forum.CreateArticleActivity" android:screenOrientation="portrait" android:theme="@style/ForumTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.liquable.nemo.forum.ArticleReplyListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <data android:host="cubie.com" android:pathPattern="/space/.*/.*" android:scheme="http"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="space" android:pathPattern="/.*/.*" android:scheme="cubie"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.liquable.nemo.forum.BoardCategoryListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.forum.BoardDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.forum.ForumImagePreviewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.forum.ForumImageViewerActivity" android:screenOrientation="portrait" android:theme="@style/NemoActionBarOverLayTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="com.liquable.nemo.friend.SearchCubieIdActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateVisible">
+            <intent-filter>
+                <data android:host="cubie.com" android:pathPattern="/~.*/.*" android:scheme="http"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.liquable.nemo.friend.InviteFirendsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.friend.FindFriendsInContactsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.regist.InputPhoneNumberActivity" android:screenOrientation="portrait" android:theme="@style/NemoNoTitleTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.regist.SelectRegionActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Dialog"/>
+        <activity android:name="com.liquable.nemo.regist.InputPincodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.liquable.nemo.regist.RestoreDataActivity" android:screenOrientation="portrait" android:theme="@style/NemoNoTitleTheme.Cover" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.liquable.nemo.regist.AlternativeRegistrationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.liquable.nemo.regist.CreateProfileWithFacebookActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.liquable.nemo.regist.ImportContactsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.liquable.nemo.regist.ImportFacebookFriendsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.liquable.nemo.regist.SelectMyAccountIconActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.liquable.nemo.phone.ConnectPhoneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.liquable.nemo.phone.ConnectPhonePincodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.liquable.nemo.profile.ProfileSettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.liquable.nemo.setting.NotificationSettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.PrivacySettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.ChatGroupSettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.CameraSettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.HelpSettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.RatingSettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.FeedbackSettingActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.setting.BlockListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.setting.DiagnosisActivity" android:screenOrientation="portrait" android:theme="@style/NemoTheme.Setting"/>
+        <activity android:name="com.liquable.nemo.sticker.StickerShopActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.sticker.PaidStickerItemActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.sticker.BaseStickerItemActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.sticker.ManageStickerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.sticker.promo.SelectPromotionStickerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.sticker.promo.SelectAdwaysCampaignActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.profile.ViewFriendProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.profile.ViewAddFriendProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.profile.ViewWaitConfirmFriendProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.profile.ViewWaitAcceptFriendProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.profile.ViewRecommendFriendProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.profile.ViewSpaceFriendProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.profile.ViewInviteFriendProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.util.crop.CropImageActivity" android:screenOrientation="portrait" android:theme="@style/NemoNoTitleTheme"/>
+        <activity android:name="com.liquable.nemo.notice.ViewHtmlNoticeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.notice.ViewVersionNoticeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.ShowNoticeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.subaccount.SubAccountActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.liquable.nemo.email.EmailActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.liquable.nemo.voip.AnswerCallActivity" android:screenOrientation="portrait" android:taskAffinity="com.liquable.nemo.voipTask"/>
+        <activity android:launchMode="singleTask" android:name="com.liquable.nemo.voip.DialActivity" android:screenOrientation="portrait" android:taskAffinity="com.liquable.nemo.voipTask"/>
+        <activity android:name="com.liquable.nemo.voip.VoipErrorDialogActivity" android:screenOrientation="portrait" android:theme="@style/NemoNoTitleTheme"/>
+        <activity android:name="com.liquable.nemo.voip.ChooseReceiverActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.facebook.LoginActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.liquable.nemo.gallery.GalleryActivity" android:theme="@style/NemoActionBarOverLayTheme"/>
+        <activity android:name="com.mixpanel.android.surveys.SurveyActivity"/>
+        <activity android:exported="true" android:name="com.liquable.nemo.sdk.ConnectActivity">
+            <intent-filter>
+                <action android:name="com.cubie.openapi.sdk.connect"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.liquable.nemo.sdk.DisconnectActivity">
+            <intent-filter>
+                <action android:name="com.cubie.openapi.sdk.disconnect"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.liquable.nemo.external.ExternalUrlHandlerActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <data android:host="external" android:pathPattern=".*" android:scheme="cubie"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.liquable.nemo.cubiehead.CubieHeadService"/>
+        <service android:name="com.liquable.nemo.android.service.RegistrationAndroidService"/>
+        <service android:name="com.liquable.nemo.android.service.ChattingAndroidService"/>
+        <service android:name="com.liquable.nemo.android.service.FileTransferAndroidService"/>
+        <service android:name="com.liquable.nemo.background.BackgroundIntentService"/>
+        <service android:name="com.liquable.nemo.android.service.ReceiveGcmIntentService"/>
+        <service android:name="com.liquable.nemo.android.service.ActiveIntentService"/>
+        <service android:name="com.liquable.nemo.C2DMReceiver"/>
+        <receiver android:exported="true" android:name="com.appsflyer.MultipleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.liquable.nemo.android.service.InstallReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.liquable.nemo.android.service.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.liquable.nemo.storage.ExternalMediaMountBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_SHARED"/>
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.liquable.nemo.background.ScheduleAlarmReceiver"/>
+        <receiver android:name="com.google.android.c2dm.C2DMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.liquable.nemo"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.liquable.nemo"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.liquable.nemo.android.service.MessageEventIntentService"/>
+        <receiver android:name="com.liquable.nemo.android.service.MessageEventBroadcastReceiver" android:permission="com.liquable.nemo.android.INTERNAL_PERMISSION">
+            <intent-filter>
+                <action android:name="com.liquable.nemo.chat.model.MESSAGE_EVENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.liquable.nemo.android.service.DetectExternalImageIntentService"/>
+        <receiver android:name="com.liquable.nemo.android.service.DetectExternalImageIntentService$Receiver" android:permission="com.liquable.nemo.android.INTERNAL_PERMISSION">
+            <intent-filter>
+                <action android:name="com.liquable.nemo.chat.model.SHARE_PICTURE_EVENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.liquable.nemo.sticker.shop.BillingService"/>
+        <receiver android:name="com.liquable.nemo.sticker.shop.BillingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.IN_APP_NOTIFY"/>
+                <action android:name="com.android.vending.billing.RESPONSE_CODE"/>
+                <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.liquable.nemo.android.DeleteNotificationReceiver"/>
+    </application>
+</manifest>

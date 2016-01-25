@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/paintWidgetBottom" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/closeGraphicsBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_close_btn" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/clearBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_clear_btn" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/undoBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_undo_btn" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/brushBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_graphic_btn" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/eraserBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_eraser_btn" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/decorationBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_decoration_btn" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/pictureBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_picture_btn" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/sendBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_ok_btn" android:layout_weight="1.0" />
+</LinearLayout>

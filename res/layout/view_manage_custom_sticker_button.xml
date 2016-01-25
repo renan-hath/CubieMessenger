@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/manageCustomStickerBtn" android:background="@drawable/bg_sticker_shop_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/manageCustomStickerTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manage_custom_sticker" android:drawableLeft="@drawable/icon_manage_custom_sticker" android:layout_centerInParent="true" />
+</RelativeLayout>

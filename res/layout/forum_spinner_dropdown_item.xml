@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textSize="14.0sp" android:textColor="@color/item_friend_name_text" android:ellipsize="marquee" android:gravity="center" android:id="@android:id/text1" android:background="@drawable/bg_forum_spinner_item" android:layout_width="fill_parent" android:layout_height="36.0dip" android:singleLine="true" style="?android:attr/spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

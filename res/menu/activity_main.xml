@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:orderInCategory="999" android:title="@string/action_item_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/mainShopItem" android:orderInCategory="999" android:title="@string/sticker_setting_and_download" android:showAsAction="never" />
+            <item android:id="@id/mainSettingBtn" android:orderInCategory="999" android:title="@string/settings" android:showAsAction="never" />
+            <item android:id="@id/mainHelpItem" android:orderInCategory="999" android:title="@string/help_title" android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

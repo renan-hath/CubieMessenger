@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fffaf9f9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/coverImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <ProgressBar android:id="@id/profileViewProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/triangleImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="49.0dip" android:src="@drawable/image_triangle_profile" android:layout_alignBottom="@id/coverImageView" />
+        <ImageView android:id="@id/userIconImageView" android:background="@drawable/bg_profile_avatar" android:layout_width="91.0dip" android:layout_height="91.0dip" android:layout_marginLeft="10.0dip" android:scaleType="center" android:layout_above="@id/triangleImageView" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/userIconImageView" android:layout_alignBottom="@id/coverImageView">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/nicknameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#dd000000" android:shadowRadius="12.0" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffc1f3f1" android:id="@id/displayNameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#dd000000" android:shadowRadius="12.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/cubieIdLayout" android:background="@drawable/bg_profile_cubie_id_textview" android:paddingLeft="25.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff3e3e3e" android:layout_gravity="center_vertical" android:id="@id/cubieIdLabelTextView" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setting_id_label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:typeface="monospace" android:textColor="#ff808080" android:layout_gravity="center_vertical" android:id="@id/cubieIdTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/cubieIdLabelTextView" android:layout_centerVertical="true" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/copyCubieIdBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/btn_copy_cubie_id" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:src="@drawable/div_line_profile_setting" android:layout_toLeftOf="@id/copyCubieIdBtn" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

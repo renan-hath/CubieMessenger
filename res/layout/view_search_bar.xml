@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_location_search_bar" android:paddingLeft="5.0dip" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/edit_text_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="#ffb3b3b3" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/searchHintText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:drawableLeft="@drawable/icon_edittext_search" />
+            <EditText android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/searchEditText" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:inputType="text" android:imeOptions="actionSearch" />
+        </FrameLayout>
+        <ImageButton android:id="@id/stopSearchBtn" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_edittext_cancel" />
+    </LinearLayout>
+</LinearLayout>

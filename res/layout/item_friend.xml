@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="4.0dip" android:paddingTop="3.0dip" android:paddingRight="4.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/itemFriendBackground" android:background="@drawable/bg_list_item" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/itemFriendMemberIcon" android:layout_alignParentLeft="true" layout="@layout/view_member_icon_with_triangle" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff494949" android:id="@id/itemFriendStateTextView" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="1.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/itemFriendName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/itemFriendStateTextView" android:layout_toRightOf="@id/itemFriendMemberIcon" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/item_friend_name_text" android:id="@id/itemFriendNameTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" style="@style/ItemTitleTextView" />
+            <TextView android:textColor="@color/item_friend_name_alt_text" android:id="@id/itemFriendNameFromContactTextView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="9.0dip" style="@style/ItemSubTitleTextView" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

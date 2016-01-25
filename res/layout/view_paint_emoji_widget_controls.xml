@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffdedede" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_paint_text_widget_toolbar" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageButton android:id="@id/cancelBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/btn_paint_cancel" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/deleteBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/btn_paint_delete" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/flipBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/btn_paint_decoration_flip" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/saveBtn" android:background="@drawable/btn_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/paint_ok_btn" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

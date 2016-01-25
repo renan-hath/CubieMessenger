@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/viewIconContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/avatar_margin_left">
+        <include android:id="@id/senderIcon" layout="@layout/view_icon" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bubbleLayout" android:background="@drawable/bubble_background_with_pressed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/viewIconContainer">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sender_text_view_color" android:id="@id/senderName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxEms="10" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <RelativeLayout android:id="@id/bubble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/senderName" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/msg_text_size" android:textColor="@color/msg_text_view_color" android:id="@id/pictureMsgTextView" android:background="@drawable/bubble_pic_text_other" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:minWidth="120.0dip" android:layout_toRightOf="@id/viewIconContainer" android:layout_below="@id/bubbleLayout" />
+    <ImageButton android:id="@id/downloadBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/media_download_btn" android:layout_toRightOf="@id/bubbleLayout" />
+    <ImageButton android:id="@id/stopDownloadBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/media_cancel_btn" android:layout_toRightOf="@id/bubbleLayout" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="1.0dip" android:layout_toRightOf="@id/bubbleLayout" android:layout_alignBottom="@id/bubbleLayout" android:layout_centerHorizontal="true" layout="@layout/view_msg_tick_create_time" />
+</merge>

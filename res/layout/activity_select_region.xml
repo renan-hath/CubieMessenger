@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_select_rigion" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/searchRegionCodeEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/select_region_hint" android:drawableLeft="@drawable/magnifier" android:drawablePadding="2.0dip" style="@style/NemoEditTextHolo" />
+    <ListView android:id="@id/regionsListView" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/divider_select_rigion" android:dividerHeight="2.0dip" />
+</LinearLayout>

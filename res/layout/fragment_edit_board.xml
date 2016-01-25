@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/forum_default_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/confirmCreateBoardBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/done" android:layout_alignParentBottom="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/confirmCreateBoardBtn" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/forum_board_create_title_icon" />
+                <EditText android:textSize="16.0sp" android:id="@id/boardTitleEditText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:hint="@string/forum_board_title_placeholder" android:singleLine="true" android:maxLength="100" android:layout_weight="1.0" android:inputType="text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/forum_board_create_desc_icon" />
+                <EditText android:textSize="16.0sp" android:id="@id/boardDescriptionEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:hint="@string/forum_board_description_placeholder" android:maxLines="5" android:maxLength="500" android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/forum_board_create_category_icon" />
+                <EditText android:id="@id/boardCategoryTextView" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="5.0dip" android:editable="false" android:popupBackground="#ffffffff" android:layout_weight="1.0" />
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/selectBoardIconView" android:background="@drawable/forum_select_image_bg" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="10.0dip">
+                <Button android:textColor="@color/item_forum_board_update_time_text" android:layout_gravity="center" android:id="@id/selectBoardIconBtn" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forum_board_icon_title" android:drawableTop="@drawable/forum_select_image_icon" android:drawablePadding="5.0dip" />
+                <com.liquable.volley.toolbox.NetworkImageView android:layout_gravity="center_vertical" android:id="@id/boardIconNetworkImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/boardIconImageView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

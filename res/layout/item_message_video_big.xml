@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_big_picture" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bigMessageImage" android:background="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <com.liquable.nemo.widget.TransferProgressBar android:id="@id/transferProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="35.0dip" android:max="100" android:progress="0" android:secondaryProgress="100" android:indeterminate="false" android:layout_alignBottom="@id/bigMessageImage" style="@style/NemoProgressBarHorizontal" />
+    <ImageView android:id="@id/playButton" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_video_play" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/downloadBtn" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_video_download" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/stopDownloadBtn" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_video_stop" android:layout_centerInParent="true" />
+    <RelativeLayout android:background="#ccffffff" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/bigMessageImage">
+        <ImageView android:id="@id/pictureMsgTextIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:src="@drawable/icon_video" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/msg_text_size" android:textColor="#ff000000" android:id="@id/bigMessageText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/pictureMsgTextIcon" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</RelativeLayout>

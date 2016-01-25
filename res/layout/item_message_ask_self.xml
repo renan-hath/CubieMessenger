@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/bg_ask_msg_self" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/self_bubble_margin_right" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/msg_text_size" android:textColor="@color/msg_text_view_color" android:layout_gravity="center_vertical" android:id="@id/askMessageText" android:padding="5.0dip" android:layout_width="140.0dip" android:layout_height="wrap_content" android:singleLine="false" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/askImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_ask_msg_self" />
+</LinearLayout>

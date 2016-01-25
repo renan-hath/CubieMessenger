@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.liquable.nemo.util.bitmap.RecyclingImageView android:id="@id/paintMessageImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

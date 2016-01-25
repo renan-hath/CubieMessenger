@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/account_setting_title">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.profile.ProfileSettingActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/notification_setting_category">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.NotificationSettingActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/chatgroup_setting_title">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.ChatGroupSettingActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/camera_settings_title" android:key="camera_settings">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.CameraSettingActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/sticker_edit" android:key="sticker_manage" />
+    <PreferenceScreen android:title="@string/cubie_mini_setting_title" android:key="sub_account" android:summary="@string/sub_account_setting_title">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.subaccount.SubAccountActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/email_setting_title" android:key="email">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.email.EmailActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/privacy_setting_title">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.PrivacySettingActivity" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/auto_sync_contact_title" android:key="auto_sync_contact_preference" />
+    <Preference android:title="@string/backup_title" android:key="backup_preference" />
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/remove_media_files_title" android:key="remove_media_files" android:summary="@string/remove_media_files_summary" />
+</PreferenceScreen>

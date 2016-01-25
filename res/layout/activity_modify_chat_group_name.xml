@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_flowers" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_form" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/groupNameTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/chat_group_name_label" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <EditText android:textSize="14.0sp" android:id="@id/groupNameEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:singleLine="true" android:layout_below="@id/groupNameTitle" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <Button android:id="@id/modifyTitleBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/modify_chat_group_name" android:layout_alignParentBottom="true" />
+</RelativeLayout>

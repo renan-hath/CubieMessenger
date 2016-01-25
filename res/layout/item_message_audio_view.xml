@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbnailImageView" android:background="@null" android:padding="2.0dip" android:layout_width="120.0dip" android:layout_height="108.0dip" android:src="@drawable/music_icon_normal" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:layout_width="120.0dip" android:layout_height="108.0dip" android:src="@drawable/audio_msg_bg_frame" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="10.0sp" android:textColor="#ffc7c3c0" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/audioTitleTextView" android:background="@drawable/audio_msg_bg_title" android:paddingLeft="2.0dip" android:paddingTop="0.0dip" android:paddingRight="2.0dip" android:paddingBottom="0.0dip" android:layout_width="120.0dip" android:layout_height="wrap_content" android:singleLine="true" android:drawableLeft="@drawable/icon_music_msg" android:layout_below="@id/thumbnailImageView" android:layout_alignParentLeft="true" />
+    <com.liquable.nemo.widget.TransferProgressBar android:id="@id/transferProgressBar" android:layout_width="wrap_content" android:layout_height="6.0dip" android:layout_margin="3.0dip" android:max="100" android:progress="0" android:secondaryProgress="100" android:layout_alignLeft="@id/thumbnailImageView" android:layout_alignRight="@id/thumbnailImageView" android:layout_alignBottom="@id/thumbnailImageView" style="@style/NemoProgressBarHorizontal" />
+</merge>

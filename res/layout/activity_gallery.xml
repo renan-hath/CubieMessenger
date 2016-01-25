@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/sendButton" android:background="@drawable/bg_default_positive_btn_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/send" android:layout_alignParentBottom="true" />
+    <GridView android:scrollbarAlwaysDrawVerticalTrack="true" android:gravity="center" android:id="@id/gridView" android:paddingTop="@dimen/abs__action_bar_default_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="2.0dip" android:verticalSpacing="2.0dip" android:stretchMode="columnWidth" android:columnWidth="100.0dip" android:numColumns="auto_fit" android:layout_above="@id/sendButton" />
+    <FrameLayout android:id="@id/detailImageViewer" android:background="@android:color/black" android:paddingTop="@dimen/abs__action_bar_default_height" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sendButton">
+        <com.liquable.nemo.gallery.GalleryBigImageView android:id="@id/detailImageView" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    </FrameLayout>
+</RelativeLayout>

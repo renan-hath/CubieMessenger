@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_create_board" android:id="@id/mainCreateBoardBtn" android:orderInCategory="20" android:title="@string/create_forum_board_title" android:showAsAction="always" />
+</menu>

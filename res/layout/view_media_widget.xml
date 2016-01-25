@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_media_widget" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.liquable.nemo.widget.HorizontalScrollViewWithScrollChangeListener android:id="@id/mediaWidgetScrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/mediaWidgetBtnLayout" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+    </com.liquable.nemo.widget.HorizontalScrollViewWithScrollChangeListener>
+    <ImageView android:id="@id/mediaWidgetTabArrowLeft" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="48.0dip" android:src="@drawable/tab_emoji_widget_arrow_left" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/mediaWidgetTabArrowRight" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="48.0dip" android:src="@drawable/tab_emoji_widget_arrow_right" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+</RelativeLayout>

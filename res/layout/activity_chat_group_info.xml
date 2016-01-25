@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_form" android:paddingLeft="15.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/chatGroupInfo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/chatGroupIcon" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/chatGroupIcon" android:layout_alignTop="@id/chatGroupIcon" android:layout_alignBottom="@id/chatGroupIcon">
+            <TextView android:id="@id/createTimeTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_group_create_time" android:layout_weight="1.0" style="@style/ItemTitleTextView" />
+            <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/createTime" android:background="@drawable/chat_group_info_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:textIsSelectable="true" style="@style/ItemTitleTextView" />
+            <TextView android:id="@id/ownerTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_group_owner" android:layout_weight="1.0" style="@style/ItemTitleTextView" />
+            <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/owner" android:background="@drawable/chat_group_info_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:textIsSelectable="false" style="@style/ItemTitleTextView" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/chatGroupMembersTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/chat_group_members" android:layout_below="@id/chatGroupInfo" android:layout_alignLeft="@id/chatGroupInfo" style="@style/ItemTitleTextView" />
+    <Button android:id="@id/goToChattingBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_btn" android:layout_alignLeft="@id/chatGroupInfo" android:layout_alignRight="@id/chatGroupInfo" android:layout_alignParentBottom="true" />
+    <ListView android:id="@id/chatGroupMembersListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="12.0dip" android:listSelector="#00000000" android:layout_above="@id/goToChattingBtn" android:layout_below="@id/chatGroupMembersTitle" android:layout_alignLeft="@id/chatGroupInfo" android:layout_alignRight="@id/chatGroupInfo" />
+</RelativeLayout>

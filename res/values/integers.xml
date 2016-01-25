@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abs__max_action_buttons">2</integer>
+    <item type="integer" name="aviary_adjust_animationDuration">@android:integer/config_mediumAnimTime</item>
+    <item type="integer" name="aviary_adjust_animationDuration2">@android:integer/config_shortAnimTime</item>
+    <integer name="aviary_adjust_divider_weight">5</integer>
+    <integer name="aviary_adjust_flip3d">0</integer>
+    <integer name="aviary_adjust_free_rotate">1</integer>
+    <integer name="aviary_adjust_item_weight">30</integer>
+    <integer name="aviary_button_highlight_glow_size">7</integer>
+    <integer name="aviary_color_splash_divider_weight">5</integer>
+    <integer name="aviary_color_splash_item_weight">15</integer>
+    <integer name="aviary_crop_invert_policy">0</integer>
+    <integer name="aviary_crop_selected_index">2</integer>
+    <integer name="aviary_draw_brush_index">2</integer>
+    <integer name="aviary_draw_brush_softValue">1</integer>
+    <integer name="aviary_draw_fill_color_index">3</integer>
+    <integer name="aviary_enhance_item_weight">15</integer>
+    <integer name="aviary_featured_packs_count">3</integer>
+    <integer name="aviary_iap_dialog_cols_effects">3</integer>
+    <integer name="aviary_iap_dialog_cols_stickers">5</integer>
+    <integer name="aviary_iap_dialog_height_weight">70</integer>
+    <integer name="aviary_iap_dialog_margin_top_weight">0</integer>
+    <integer name="aviary_iap_dialog_rows_effects">2</integer>
+    <integer name="aviary_iap_dialog_rows_stickers">3</integer>
+    <integer name="aviary_iap_dialog_width_weight">100</integer>
+    <integer name="aviary_mediumAnimTime">400</integer>
+    <integer name="aviary_meme_max_length">35</integer>
+    <integer name="aviary_meme_stroke_enabled">1</integer>
+    <integer name="aviary_seekbar_weight">95</integer>
+    <integer name="aviary_shortAnimTime">200</integer>
+    <integer name="aviary_spot_brush_index">2</integer>
+    <integer name="aviary_spot_gallery_item_max_size">40</integer>
+    <integer name="aviary_spot_gallery_item_min_size">10</integer>
+    <integer name="aviary_text_fill_color_index">0</integer>
+    <integer name="aviary_text_gallery_drawable_radius">50</integer>
+    <integer name="aviary_text_max_length">100</integer>
+    <integer name="aviary_text_stroke_enabled">0</integer>
+    <integer name="aviary_wheel_weight">95</integer>
+    <integer name="border_version">1</integer>
+    <integer name="is_border">0</integer>
+    <integer name="is_filter">1</integer>
+    <integer name="is_sticker">0</integer>
+    <integer name="is_tool">1</integer>
+    <integer name="max_input_length">5000</integer>
+    <integer name="max_password_length">100</integer>
+    <integer name="music_row_columns">1</integer>
+    <integer name="picture_row_columns">4</integer>
+    <integer name="text_size_1">14</integer>
+    <integer name="text_size_2">16</integer>
+    <integer name="text_size_3">18</integer>
+    <integer name="text_size_4">20</integer>
+    <integer name="text_size_5">22</integer>
+    <integer name="video_row_columns">4</integer>
+</resources>

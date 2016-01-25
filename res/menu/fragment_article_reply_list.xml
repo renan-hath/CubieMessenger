@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shareItem" android:visible="false" android:title="@string/share" android:showAsAction="always" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:visible="false" android:orderInCategory="999" android:title="@string/action_item_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/reportAbuseItem" android:visible="false" android:orderInCategory="999" android:title="@string/report_forum_artitle_title" android:showAsAction="never" />
+            <item android:id="@id/deleteArticleItem" android:visible="false" android:orderInCategory="999" android:title="@string/delete_forum_article" android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

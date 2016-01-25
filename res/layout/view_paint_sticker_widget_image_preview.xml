@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffdedede" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/paintStickerControls" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true" layout="@layout/view_paint_sticker_widget_controls" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_flowers" android:layout_above="@id/paintStickerControls" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_above="@id/paintStickerControls">
+        <ImageView android:id="@id/stickerImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

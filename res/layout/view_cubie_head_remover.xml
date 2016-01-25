@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@color/cubie_head_remover_out" android:layout_width="@dimen/cubie_head_remover_width" android:layout_height="@dimen/cubie_head_remover_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cubie_head_remove" android:drawableLeft="@drawable/icon_remove_cubie_head" />
+</LinearLayout>

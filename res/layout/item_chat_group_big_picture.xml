@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="4.0dip" android:paddingTop="3.0dip" android:paddingRight="4.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/chatGroupItem" android:background="@drawable/bg_list_item" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/itemChatGroupMemberIcon" android:layout_alignParentLeft="true" layout="@layout/view_member_icon_with_triangle" />
+        <TextView android:textSize="10.0sp" android:id="@id/itemChatGroupLastUpdateTime" android:paddingRight="5.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/ItemSubTitleTextView" />
+        <TextView android:textColor="@color/item_friend_name_text" android:id="@id/itemTopicTitleTextView" android:paddingLeft="9.0dip" android:paddingTop="5.0dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/itemChatGroupLastUpdateTime" android:layout_toRightOf="@id/itemChatGroupMemberIcon" android:layout_alignParentTop="true" style="@style/ItemTitleTextView" />
+        <TextView android:textColor="@color/item_friend_name_alt_text" android:id="@id/itemTopicLastMsgTextView" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/itemChatGroupLastUpdateTime" android:layout_toRightOf="@id/itemChatGroupMemberIcon" android:layout_alignParentBottom="true" style="@style/ItemSubTitleTextView" />
+    </RelativeLayout>
+    <ImageView android:id="@id/itemChatGroupUnreadCountBg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/friend_list_unread_bg" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/itemChatGroupUnreadCountTextView" android:paddingTop="1.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/recentPictureGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@id/chatGroupItem">
+        <FrameLayout android:background="#ffdcdbdb" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/chatGroupPictureView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+            <ImageView android:id="@id/chatGroupPictureMaskView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/group_picture_mask_left" />
+        </FrameLayout>
+        <FrameLayout android:background="#ffdcdbdb" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/chatGroupPictureView2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+            <ImageView android:id="@id/chatGroupPictureMaskView2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/group_picture_mask_center" />
+        </FrameLayout>
+        <FrameLayout android:background="#ffdcdbdb" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/chatGroupPictureView3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+            <ImageView android:id="@id/chatGroupPictureMaskView3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/group_picture_mask_center" />
+        </FrameLayout>
+        <FrameLayout android:background="#ffdcdbdb" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/chatGroupPictureView4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+            <ImageView android:id="@id/chatGroupPictureMaskView4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/group_picture_mask_right" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aviary_optionpanel_button_padding_bottom">9.0dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_left">10.0dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_right">10.0dip</dimen>
+    <dimen name="aviary_optionpanel_button_padding_top">8.0dip</dimen>
+    <dimen name="com_facebook_picker_divider_width">1.0px</dimen>
+</resources>

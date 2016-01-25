@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/main_tab_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <RelativeLayout android:id="@id/pictureTab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/pictureTabBg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/main_tab_selected_bg" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/tab_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo" android:drawableLeft="@drawable/photo_tab_btn" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/paintTab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/paintTabBg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/main_tab_selected_bg" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/tab_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paint" android:drawableLeft="@drawable/photo_tab_btn" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/videoTab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/videoTabBg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/main_tab_selected_bg" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/tab_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video" android:drawableLeft="@drawable/video_tab_btn" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/audioTab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/audioTabBg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/main_tab_selected_bg" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/tab_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music" android:drawableLeft="@drawable/music_tab_btn" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/voiceTab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/voiceTabBg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/main_tab_selected_bg" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/tab_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voice" android:drawableLeft="@drawable/music_tab_btn" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <view android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" class="com.liquable.nemo.widget.Workspace" />
+</LinearLayout>

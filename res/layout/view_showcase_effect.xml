@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/showCaseTop" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/showCaseIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/icon_show_case_effect" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffc4f839" android:id="@id/showCaseTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_case_edit_title" android:layout_toRightOf="@id/showCaseIcon" android:layout_alignTop="@id/showCaseIcon" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/show_case_edit_desc" android:layout_toRightOf="@id/showCaseIcon" android:layout_below="@id/showCaseTitle" />
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/show_case_effect_sample" android:layout_below="@id/showCaseTop" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fffaf9f9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/contentLayout">
+        <LinearLayout android:orientation="vertical" android:background="#fffaf9f9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/coverImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                <ProgressBar android:id="@id/profileViewProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/triangleImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="49.0dip" android:src="@drawable/image_triangle_profile" android:layout_alignBottom="@id/coverImageView" />
+                <com.liquable.volley.toolbox.RoundedNetworkImageView android:id="@id/userIconImageView" android:layout_width="91.0dip" android:layout_height="91.0dip" android:layout_marginLeft="10.0dip" android:layout_above="@id/triangleImageView" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/userIconImageView" android:layout_alignBottom="@id/coverImageView">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/nicknameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#dd000000" android:shadowRadius="12.0" />
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffc1f3f1" android:id="@id/displayNameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#dd000000" android:shadowRadius="12.0" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/statusLayout" android:background="@drawable/bg_profile_cubie_id_textview" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+                <TextView android:textSize="16.0sp" android:id="@id/messageTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:drawablePadding="5.0dip" android:layout_centerVertical="true" />
+                <ImageButton android:id="@id/descBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/space_friend_desc_icon" android:layout_toRightOf="@id/messageTextView" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Button android:textSize="16.0sp" android:id="@id/inviteBtn" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/invite_recommend_invite" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/largeIconLayout" android:background="#aa000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_form" android:paddingBottom="30.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.liquable.volley.toolbox.RoundedNetworkImageView android:layout_gravity="center_horizontal" android:id="@id/largeIconImageView" android:layout_width="167.0dip" android:layout_height="167.0dip" android:layout_marginBottom="5.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

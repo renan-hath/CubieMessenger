@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:title="@string/action_item_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/editNicknameItem" android:title="@string/modify_nickname" android:showAsAction="withText" />
+            <item android:id="@id/deleteItem" android:title="@string/friend_detail_delete_title" android:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

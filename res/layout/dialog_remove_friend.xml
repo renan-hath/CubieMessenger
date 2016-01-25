@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:id="@id/removeFrdDialogMsg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" />
+    <CheckBox android:id="@id/blockCheckBox" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_below="@id/removeFrdDialogMsg" style="@style/NemoCheckedButton" />
+    <TextView android:textSize="16.0sp" android:id="@id/blockTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/blockCheckBox" android:layout_below="@id/removeFrdDialogMsg" android:layout_alignBaseline="@id/blockCheckBox" />
+</RelativeLayout>

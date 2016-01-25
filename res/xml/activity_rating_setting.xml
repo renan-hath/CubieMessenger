@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/google_play_rating_setting_title" android:key="google_play_rating_preference" android:summary="@string/google_play_rating_setting_summary" />
+    <Preference android:title="@string/facebook_page_setting_title" android:key="facebook_page_preference">
+        <intent android:action="android.intent.action.VIEW" android:data="http://sv.cubie.com/redirect-facebook" />
+    </Preference>
+    <Preference android:title="@string/twitter_following_setting_title" android:key="twitter_following_preference">
+        <intent android:action="android.intent.action.VIEW" android:data="http://sv.cubie.com/redirect-twitter" />
+    </Preference>
+</PreferenceScreen>

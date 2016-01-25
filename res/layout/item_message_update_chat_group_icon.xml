@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/white" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/chatGroupIcon" android:background="@android:color/white" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_margin="3.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/msg_system_color" android:id="@id/systemMessageTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

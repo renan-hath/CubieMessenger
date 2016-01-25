@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/waitingProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/thumbnailImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <com.liquable.nemo.widget.TransferProgressBar android:id="@id/transferProgressBar" android:layout_width="wrap_content" android:layout_height="6.0dip" android:layout_margin="3.0dip" android:max="100" android:progress="0" android:secondaryProgress="100" android:layout_alignLeft="@id/thumbnailImageView" android:layout_alignRight="@id/thumbnailImageView" android:layout_alignBottom="@id/thumbnailImageView" style="@style/NemoProgressBarHorizontal" />
+</merge>

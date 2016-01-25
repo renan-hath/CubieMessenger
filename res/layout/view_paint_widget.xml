@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.liquable.nemo.chat.paint.ColorSelectorWidget android:id="@id/colorSelectorWidget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/view_paint_widget_controls" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.liquable.nemo.chat.paint.PaintView android:id="@id/paintView" android:background="#ffededed" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.liquable.nemo.chat.paint.SecretMaskView android:id="@id/secretMaskView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_alignTop="@id/paintView" android:layout_alignBottom="@id/paintView" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/modeHint" android:background="#aa000000" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/paint_decoration_mode_hint" android:layout_alignBottom="@id/paintView" />
+    </RelativeLayout>
+</LinearLayout>

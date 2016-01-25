@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_favorite_board" android:id="@id/favoriteBoardItem" android:orderInCategory="20" android:title="@string/favorite_board_title" android:showAsAction="always" />
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:orderInCategory="999" android:title="@string/action_item_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/showBoardDetailItem" android:orderInCategory="999" android:title="@string/about_forum_board" android:showAsAction="never" />
+            <item android:id="@id/editBoardItem" android:orderInCategory="999" android:title="@string/edit_forum_board_title" android:showAsAction="never" />
+            <item android:id="@id/reportAbuseItem" android:orderInCategory="999" android:title="@string/report_forum_board_title" android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

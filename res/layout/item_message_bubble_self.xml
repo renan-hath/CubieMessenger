@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="@dimen/self_bubble_margin_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <RelativeLayout android:gravity="bottom" android:id="@id/msgTimeContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_marginBottom="1.0dip">
+            <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/resendButton" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/resend_btn" />
+            <include layout="@layout/view_msg_tick_create_time" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/bubbleLayout" android:background="@drawable/bubble_background_self_with_pressed" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

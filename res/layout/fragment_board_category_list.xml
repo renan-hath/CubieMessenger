@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/forum_default_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.liquable.nemo.widget.SearchBarWidget android:id="@id/searchBoardWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchBoardWidget">
+        <ListView android:id="@id/boardCategoryListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ff94d1d1" android:dividerHeight="0.5dip" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loadingProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chatStatusSenderImageView" android:background="@drawable/status_avatar_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/chatStatusContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip" android:layout_below="@id/chatStatusSenderImageView" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/chatStatusIconContainer" android:background="@drawable/status_round_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/chatStatusIconView" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/chatStatusImageView" android:background="@drawable/status_square_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </RelativeLayout>
+</RelativeLayout>

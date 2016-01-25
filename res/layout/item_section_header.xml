@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sectionHeaderCloseBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/icon_close_friend_header" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff44606b" android:id="@id/sectionHeaderTextView" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_centerVertical="true" />
+</RelativeLayout>

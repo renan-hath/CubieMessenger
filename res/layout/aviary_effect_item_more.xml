@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?attr/aviaryEffectThumbLayoutExternalStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviary="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/aviary_image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aviary_effect_item_getmore" android:scaleType="fitXY" android:layout_above="@id/aviary_text" android:layout_centerHorizontal="true" />
+    <com.aviary.android.feather.widget.AviaryTextView android:id="@id/aviary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feather_get_more" android:layout_alignLeft="@id/aviary_image" android:layout_alignRight="@id/aviary_image" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?attr/aviaryEffectThumbTextStyle" />
+    <include android:visibility="invisible" layout="@layout/aviary_thumb_divider_left" />
+    <include android:visibility="invisible" layout="@layout/aviary_thumb_divider_right" />
+</RelativeLayout>

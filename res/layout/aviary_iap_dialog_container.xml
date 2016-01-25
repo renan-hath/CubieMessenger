@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/aviary_main_iap_dialog_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0" style="?attr/aviaryIAPDialogContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/aviary_iap_dialog" />
+</LinearLayout>

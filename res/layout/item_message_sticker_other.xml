@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/viewIconContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/avatar_margin_left">
+        <include android:id="@id/senderIcon" layout="@layout/view_icon" />
+    </LinearLayout>
+    <LinearLayout android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_toRightOf="@id/viewIconContainer">
+        <RelativeLayout android:id="@id/mainLayout" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:orientation="vertical" android:id="@id/nameLayout" android:background="@drawable/bubble_background_with_pressed" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sender_text_view_color" android:id="@id/senderName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" android:drawableRight="@drawable/icon_sticker_message" android:drawablePadding="1.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_below="@id/nameLayout">
+                <RelativeLayout android:id="@id/bubbleLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <include android:layout_gravity="bottom|center|right" android:id="@id/timeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/view_msg_tick_create_time" />
+    </LinearLayout>
+</merge>

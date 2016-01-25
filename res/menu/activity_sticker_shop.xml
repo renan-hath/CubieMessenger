@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_setting" android:id="@id/settingItem" android:title="@string/sticker_edit" android:showAsAction="always" />
+</menu>

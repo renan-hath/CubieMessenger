@@ -1,0 +1,3161 @@
+[
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "girlcomic",
+    "stickers": [
+      {
+        "code": "girlcomic1_haha",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic1_happy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic1_hate",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic1_hi",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic1_no",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic1_ok",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic1_shocked",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic1_wth",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_angry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_blush",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_doubt",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_facemask",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_flowers",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_grimace",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic2_rain",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_bathe",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_celebrate",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_drink",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_drive",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_eat",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_fall",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_sleepy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic3_tragedy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_bye",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_cry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_hi",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_hum",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_lovecat",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_lovedog",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_winter",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic4_working",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_agony",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_anxiety",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_burble",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_mad",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_muse",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_omg",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_thump",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "girlcomic5_worry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "バラ劇場"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "madbros",
+    "stickers": [
+      {
+        "code": "madbros1_astonish",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros1_crush",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros1_dazzle",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros1_nomoney",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros1_nothear",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros1_smash",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros1_spray",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros1_weep",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_buddha",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_bye",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_celebrate",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_fury",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_okay",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_relax",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros2_sorry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_booo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_comfort",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_jump",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_lighting",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_morning",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_please",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_roar",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros3_yawn",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_clap",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_cold",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_evil",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_fat",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_givemefive",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_movie",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_salute",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros4_takebus",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_birthday",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_blow",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_eat",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_hungry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_kneel",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_night",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_rocksong",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "madbros5_welcome",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "クレイジー兄弟"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "cupcake",
+    "stickers": [
+      {
+        "code": "cupcake1_angry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake1_byebye",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake1_celebrate",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake1_dontgo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake1_love",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake1_pitiful",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake1_shy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake1_startle",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_cry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_donotknow",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_encourage",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_faint",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_grimace",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_no",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake2_ok",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_dance",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_detection",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_disdain",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_hateful",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_headache",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_smile",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_snicker",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake3_sorry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_clap",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_cold",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_fart",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_panic",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_sad",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_sleepy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_strive",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake4_thanks",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_afraid",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_bathe",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_idea",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_lucky",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_makeup",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_orz",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_sigh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "cupcake5_warning",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "苺カップのアン"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "pockymoGerm",
+    "stickers": [
+      {
+        "code": "pockymo1_anger",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "pockymo1_foolish",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "pockymo1_happiness",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "pockymo1_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "pockymo1_notmove",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "pockymo1_watchtv",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "pockymo1_what",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "pockymo1_ya",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_cheers",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_fall",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_frustration",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_shock",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_sick",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_smug",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_toilet",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "germ1_turn",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_anger",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_chuckle",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_coquetry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_lucky",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_sick",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_shock",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_sleep",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "catblock_tea",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "ペギーの猫"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "chichi",
+    "stickers": [
+      {
+        "code": "chichi1_flower",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi1_hungry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi1_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi1_lonely",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi1_punch",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi1_sleepy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi1_thumb",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi1_touch",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_coffee",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_cry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_orz",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_shock",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_silent",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_sorry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_surprise",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi2_thanx",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_chu",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_gentle",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_haha",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_kiss",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_lazy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_tea",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_wink",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi3_yo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_cheers",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_gossip",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_no",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_please",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_shit",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_voodoo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_wc",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi4_whatever",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_angry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_busy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_bye",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_dance",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_happy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_nerd",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_tears",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "chichi5_throwup",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "ライライとチチ"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "dali",
+    "stickers": [
+      {
+        "code": "dali1_eat",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali1_heartbreak",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali1_killboss",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali1_kitty",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali1_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali1_rabbitdance",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali1_scare",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali1_shock",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_angry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_doze",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_feeding",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_iloveyou",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_night",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_no",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_robot",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali2_silent",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_celebrate",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_chu",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_cute",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_fight",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_full",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_hate",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_kick",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_kiss",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_shock",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_sleep",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_sorry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_soul",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_thanks",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_tip",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali3_ya",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_bye",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_help",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_hi",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_hug",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_love",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_request",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_sick",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "dali4_wtf",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "大力の無邪気な世界"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "seaotter",
+    "stickers": [
+      {
+        "code": "sea_otter_angry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "sea_otter_cry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "sea_otter_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "sea_otter_shine",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "sea_otter_speechless",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "sea_otter_surprise",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "sea_otter_tea",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "sea_otter_yo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_blackmail",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_eyebrow",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_fight",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_hunger",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_scratching",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_spit",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_tongue",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter2_wipe",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_circle",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_fat",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_glasses",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_hot",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_morning",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_sleep",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_toilet",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter3_turn",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_burble",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_dizzy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_dontgo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_faint",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_grimace",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_no",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_socold",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter4_strive",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_dontwanttohear",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_fart",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_impatient",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_kiss",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_panic",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_pleasedont",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_prayer",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "seaotter5_yawn",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "ラッコッコおじさん"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "rabbit",
+    "stickers": [
+      {
+        "code": "rabbit_angry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_cry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_dizzy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_donotgo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_doze",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_eat",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_false",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_fear",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_happy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_headache",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_heed",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_hi",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_hit",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_hot",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_hug",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_hum",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_hurry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_laugh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_lazy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_love",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_no",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_ok",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_panic",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_pitiful",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_please",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_pouted",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_shock",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_shy",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_sigh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_sleep",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_smile",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_smoke",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_sorry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_suspect",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_think",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_tiaomei",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_tired",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_wait",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_want",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rabbit_what",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "うさぎの友だち"
+  },
+  {
+    "@class": "com.liquable.nemo.model.sticker.StickerPackageDto",
+    "code": "rageface",
+    "stickers": [
+      {
+        "code": "rageface_accepted",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_alone",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_angry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_badpokerface",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_breakfast",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_confused",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_consider",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_courtdisaster",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_cry",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_denied",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_fu",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_gtfo",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_indeed",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_kidding",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_kiss",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_likeaboss",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_likeasir",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_lol",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_megusta",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_mog",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_moving",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_no",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_notokay",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_notwell",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_ntdh",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_okay",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_paperman",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_pfftch",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_pleading",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_pokerface",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_runaway",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_stopit",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_talk",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_watching",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_wentbetter",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_why",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_yeah",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_yesindeed",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_youmadbro",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      },
+      {
+        "code": "rageface_youno",
+        "width": 128,
+        "height": 128,
+        "frames": [
+          500,
+          500
+        ]
+      }
+    ],
+    "title": "Rage Faces"
+  }
+]

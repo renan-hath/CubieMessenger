@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/faq_setting_title" android:key="faq_preference">
+        <intent android:action="android.intent.action.VIEW" android:data="http://sv.cubie.com/redirect-faq" />
+    </Preference>
+    <Preference android:title="@string/feature_request_setting_title" android:key="feature_request_preference">
+        <intent android:action="android.intent.action.VIEW" android:data="http://sv.cubie.com/redirect-feedback" />
+    </Preference>
+    <Preference android:title="@string/bug_report_setting_title" android:key="bug_report_preference">
+        <intent android:action="android.intent.action.VIEW" android:data="http://sv.cubie.com/redirect-report" />
+    </Preference>
+</PreferenceScreen>

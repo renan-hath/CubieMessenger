@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/readMore" android:background="@drawable/read_more_btn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/read_more_btn_icon" />
+    <TextView android:textColor="@color/read_more_btn_text" android:id="@id/readMoreTextView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/previous_messages" />
+</LinearLayout>

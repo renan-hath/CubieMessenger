@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/senderIcon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentTop="true" layout="@layout/view_icon" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sender_text_view_color" android:id="@id/senderName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" android:layout_toRightOf="@id/senderIcon" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/msg_text_size" android:textColor="#ff000000" android:id="@id/bigMessageText" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/senderIcon" android:layout_centerVertical="true" />
+</RelativeLayout>

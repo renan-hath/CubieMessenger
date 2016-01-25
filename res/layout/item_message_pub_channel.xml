@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/msg_text_size" android:textColor="@color/msg_text_view_color" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="192.0dip" />
+    <FrameLayout android:id="@id/separator" android:background="@drawable/open_api_msg_separator_tile" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="6.0dip" />
+    <TextView android:textSize="@dimen/msg_text_size" android:textColor="@color/msg_text_view_color" android:id="@id/linkView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="192.0dip" />
+</LinearLayout>

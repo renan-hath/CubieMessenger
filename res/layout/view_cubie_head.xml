@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cubieHeadImageView" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/head_left" />
+    <TextView android:textStyle="bold" android:textColor="@color/unread_count_text" android:gravity="center" android:id="@id/cubieHeadTextView" android:background="@drawable/bg_cubie_head_unread_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:minWidth="16.0dip" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.liquable.nemo.widget.HorizontalScrollViewWithScrollChangeListener android:id="@id/horizontalScrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/categoryLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </com.liquable.nemo.widget.HorizontalScrollViewWithScrollChangeListener>
+            <ImageView android:id="@id/tabArrowLeft" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tab_emoji_widget_arrow_left" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/tabArrowRight" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tab_emoji_widget_arrow_right" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.liquable.nemo.chat.widget.emoji.EmojiGrid android:id="@id/emojiGridView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.liquable.nemo.chat.widget.emoji.StickerGrid android:id="@id/emojiAnimGridView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.liquable.nemo.chat.widget.emoji.FavoriteGrid android:id="@id/favoriteGridView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.liquable.nemo.chat.widget.emoji.CustomStickerGrid android:id="@id/customStickerGridView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</merge>

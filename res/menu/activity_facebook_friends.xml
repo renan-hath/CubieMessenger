@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_search" android:id="@id/filterItem" android:title="@string/action_item_search" android:showAsAction="always" />
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:title="@string/action_item_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/shareOnFbItem" android:title="@string/popup_share_to_facebook" android:showAsAction="withText" />
+            <item android:id="@id/likeFacebookFanPageItem" android:title="@string/like_cubie_facebook_fan_page" android:showAsAction="withText" />
+            <item android:id="@id/disconnectFbItem" android:title="@string/facebook_logout_action_item" android:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

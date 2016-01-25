@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AviaryWidget.IAPDialog.TopGrid" parent="@style/AviaryWidget.IAPDialog">
+        <item name="android:background">@drawable/aviary_iap_grid_background_inverted</item>
+    </style>
+</resources>

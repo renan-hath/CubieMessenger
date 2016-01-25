@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:title="@string/chat_setting_title" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/leaveItem" android:title="@string/delete_and_leave_group" android:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

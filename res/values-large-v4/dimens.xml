@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abs__dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abs__dialog_min_width_minor">79.99999%</item>
+    <dimen name="aviary_focus_button_padding_left">28.0dip</dimen>
+    <dimen name="aviary_focus_button_padding_right">28.0dip</dimen>
+</resources>

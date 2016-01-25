@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/action_icon_overflow" android:id="@id/overflowMenuItem" android:title="@string/action_item_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/followCubieItem" android:title="@string/follow_cubie_on_twitter" android:showAsAction="withText" />
+            <item android:id="@id/shareOnTwitterItem" android:title="@string/share_app_with_twitter" android:showAsAction="withText" />
+            <item android:id="@id/disconnectTwitterItem" android:title="@string/twitter_logout_action_item" android:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

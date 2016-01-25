@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?attr/aviaryEffectThumbLayoutExternalStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aviary="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/aviary_text" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/aviary_image" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/aviary_frames_pack_background" android:scaleType="fitCenter" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/aviary_image2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aviary_external_packs_download_icon" android:layout_alignRight="@id/aviary_image" />
+    </RelativeLayout>
+    <com.aviary.android.feather.widget.AviaryTextView android:id="@id/aviary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feather_get_more" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?attr/aviaryEffectThumbTextStyle" />
+</RelativeLayout>

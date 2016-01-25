@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/checkItem" android:visible="false" android:showAsAction="always" />
+    <item android:id="@id/multipleSelectItem" android:title="@string/multiple_select_gallery" android:showAsAction="always" />
+</menu>

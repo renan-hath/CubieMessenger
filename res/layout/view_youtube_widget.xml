@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/youtubePlayerFragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/youtube_player_shadow" android:scaleType="fitXY" android:layout_below="@id/youtubePlayerFragment" />
+    <ImageView android:id="@id/youtubeClippedButton" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:paddingBottom="23.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_youtube_clipped" android:layout_below="@id/youtubePlayerFragment" android:layout_centerHorizontal="true" />
+</RelativeLayout>

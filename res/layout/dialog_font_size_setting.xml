@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/fontSize1Layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/font_size_setting_title" android:layout_weight="1.0" />
+        <CheckBox android:id="@id/fontSize1CheckBox" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/NemoCheckedButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fontSize2Layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/font_size_setting_title" android:layout_weight="1.0" />
+        <CheckBox android:id="@id/fontSize2CheckBox" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/NemoCheckedButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fontSize3Layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/font_size_setting_title" android:layout_weight="1.0" />
+        <CheckBox android:id="@id/fontSize3CheckBox" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/NemoCheckedButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fontSize4Layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/font_size_setting_title" android:layout_weight="1.0" />
+        <CheckBox android:id="@id/fontSize4CheckBox" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/NemoCheckedButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fontSize5Layout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="22.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/font_size_setting_title" android:layout_weight="1.0" />
+        <CheckBox android:id="@id/fontSize5CheckBox" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" style="@style/NemoCheckedButton" />
+    </LinearLayout>
+</LinearLayout>

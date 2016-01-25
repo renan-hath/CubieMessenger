@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/flowers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_flowers" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/titleTextView" android:background="@drawable/bg_location_search_bar" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/icon_youtube" android:drawablePadding="3.0dip" android:layout_below="@id/youtubePlayerFragment" />
+    <LinearLayout android:orientation="vertical" android:id="@id/youtubePlayerFragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

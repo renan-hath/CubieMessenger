@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/use_native_camera_title" android:key="use_native_camera" />
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/save_original_photo_title" android:key="save_original_photo" />
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/use_native_gallery_title" android:key="use_native_gallery" />
+    <com.liquable.nemo.setting.MultilineTitleCheckBoxPreference android:title="@string/disable_pictures_from_gallery_title" android:key="hide_pictures_from_gallery" />
+</PreferenceScreen>

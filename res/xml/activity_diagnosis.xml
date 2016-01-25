@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/analyze_title" android:key="analyze_preference" android:summary="@string/analyze_summary" />
+    <CheckBoxPreference android:title="@string/use_default_s3_endpoint_title" android:key="use_default_s3_endpoint_preference" />
+</PreferenceScreen>

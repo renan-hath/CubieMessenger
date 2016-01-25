@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bubble" android:background="@drawable/bubble_background_self_with_pressed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/msg_text_size" android:textColor="@color/msg_text_view_color" android:id="@id/pictureMsgTextView" android:background="@drawable/bubble_pic_text_self" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:minWidth="120.0dip" android:layout_below="@id/bubble" android:layout_alignParentRight="true" />
+    <ImageButton android:id="@id/reuploadBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/media_upload_btn" android:layout_toLeftOf="@id/bubble" />
+    <ImageButton android:id="@id/stopUploadBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/media_cancel_btn" android:layout_toLeftOf="@id/bubble" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="1.0dip" android:layout_toLeftOf="@id/bubble" android:layout_alignBottom="@id/bubble" layout="@layout/view_msg_tick_create_time" />
+    <RelativeLayout android:id="@id/sidebarBubble" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/bubble" android:layout_alignBottom="@id/bubble" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffb2b4b4" android:gravity="center_vertical" android:id="@id/dateDividerTextView" android:background="@drawable/date_divider_bg" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffb2b4b4" android:gravity="center_vertical" android:id="@id/unreadMessageTag" android:background="@drawable/date_divider_bg" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/unread_messages" android:layout_below="@id/dateDividerTextView" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/messageBodyLayout" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/unreadMessageTag" />
+</merge>

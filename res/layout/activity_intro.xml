@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/introLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/shadow" android:layout_width="382.0dip" android:layout_height="549.0dip" android:src="@drawable/intro_shadow" android:scaleType="center" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/flower" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/backImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/frontImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    <com.liquable.nemo.widget.AutoResizeTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textViewTitle" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:maxLines="1" android:singleLine="true" />
+    <com.liquable.nemo.widget.AutoResizeTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textViewDiscription" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:maxLines="3" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/skip" android:background="@drawable/btn_intro_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

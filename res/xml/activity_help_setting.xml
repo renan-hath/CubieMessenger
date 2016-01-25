@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/rating_setting_title" android:key="rating_preference" android:summary="@string/rating_setting_summary">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.RatingSettingActivity" />
+    </Preference>
+    <Preference android:title="@string/feedback_setting_title" android:key="feedback_preference" android:summary="@string/feedback_setting_summary">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.FeedbackSettingActivity" />
+    </Preference>
+    <Preference android:title="@string/about_title">
+        <intent android:action="android.intent.action.VIEW" android:data="http://sv.cubie.com/redirect-about" />
+    </Preference>
+    <Preference android:title="@string/delete_account_title" android:key="delete_account_preference" />
+    <Preference android:title="@string/privacy_policy">
+        <intent android:action="android.intent.action.VIEW" android:data="http://cubie.com/privacyPolicy" />
+    </Preference>
+    <Preference android:title="@string/terms_of_service">
+        <intent android:action="android.intent.action.VIEW" android:data="http://cubie.com/termsOfService" />
+    </Preference>
+    <Preference android:title="@string/space_terms_of_service">
+        <intent android:action="android.intent.action.VIEW" android:data="http://cubie.com/spaceTermsOfService" />
+    </Preference>
+    <PreferenceScreen android:title="@string/diagnosis_title" android:key="diagnosis">
+        <intent android:targetPackage="com.liquable.nemo" android:targetClass="com.liquable.nemo.setting.DiagnosisActivity" />
+    </PreferenceScreen>
+    <Preference android:title="@string/version_title" android:key="version_preference" />
+</PreferenceScreen>

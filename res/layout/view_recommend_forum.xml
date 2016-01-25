@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/forum_default_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/boardListView" android:visibility="gone" android:fadingEdge="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loadingProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/viewCategoryListBtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_forum_search" />
+</FrameLayout>

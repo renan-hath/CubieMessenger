@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/itemFriendIconImageView" android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@drawable/default_member_icon" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="center|left|top" android:id="@id/isNewFriendImageView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_new_friend" />
+    <ImageView android:id="@id/itemFriendTriangle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_profile_triangle" android:layout_alignRight="@id/itemFriendIconImageView" android:layout_alignBottom="@id/itemFriendIconImageView" />
+    <FrameLayout android:id="@id/itemFriendPressedMask" android:background="@drawable/btn_member_icon_selector" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="52.0dip" />
+</RelativeLayout>
