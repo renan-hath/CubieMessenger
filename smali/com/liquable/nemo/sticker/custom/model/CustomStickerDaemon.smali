@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static final MAX_CUSTOM_STICKERS:I = 0xa0
+.field private static final MAX_CUSTOM_STICKERS:I = 0x3e8
 
 .field private static logger:Lcom/liquable/nemo/util/Logger;
 
@@ -730,7 +730,7 @@
 
     move-result v1
 
-    const/16 v2, 0xa0
+    const/16 v2, 0x3e8
 
     if-ge v1, v2, :cond_0
 
@@ -740,7 +740,7 @@
     return v1
 
     :cond_0
-    const/4 v1, 0x0
+    const/4 v1, 0x1
 
     goto :goto_0
 .end method
