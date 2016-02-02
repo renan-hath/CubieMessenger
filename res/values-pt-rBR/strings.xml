@@ -687,7 +687,7 @@ Atenção:
     <string name="input_phone_number">Insira o Número de Telefone</string>
     <string name="instagram_cubie_caption">\#cubie</string>
     <string name="instagram_not_installed">Instagram não instalado</string>
-    <string name="intent_filter_app_name">> Cubie</string>
+    <string name="intent_filter_app_name">Cubie</string>
     <string name="intent_invite_friend_description">Convide mais amigos para juntar-se ao Messenger Cubie via SMS, Facebook, Email, ou outros aplicativos de mensagem como WhatsApp, LINE, etc.</string>
     <string name="intent_invite_friend_description_ios">You can invite more friends to join Cubie through SMS or Email.</string>
     <string name="interrupted_error_exception">Erro. Tente novamente mais tarde.</string>
