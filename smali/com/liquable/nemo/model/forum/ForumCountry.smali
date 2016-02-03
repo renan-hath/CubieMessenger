@@ -17,6 +17,8 @@
 # static fields
 .field private static final synthetic $VALUES:[Lcom/liquable/nemo/model/forum/ForumCountry;
 
+.field public static final enum BR:Lcom/liquable/nemo/model/forum/ForumCountry;
+
 .field public static final enum CN:Lcom/liquable/nemo/model/forum/ForumCountry;
 
 .field public static final enum DE:Lcom/liquable/nemo/model/forum/ForumCountry;
@@ -38,8 +40,6 @@
 .field public static final enum MY:Lcom/liquable/nemo/model/forum/ForumCountry;
 
 .field public static final enum RU:Lcom/liquable/nemo/model/forum/ForumCountry;
-
-.field public static final enum TH:Lcom/liquable/nemo/model/forum/ForumCountry;
 
 .field public static final enum TR:Lcom/liquable/nemo/model/forum/ForumCountry;
 
@@ -144,13 +144,13 @@
     .line 23
     new-instance v0, Lcom/liquable/nemo/model/forum/ForumCountry;
 
-    const-string/jumbo v1, "TH"
+    const-string/jumbo v1, "BR"
 
     const/4 v2, 0x7
 
     invoke-direct {v0, v1, v2}, Lcom/liquable/nemo/model/forum/ForumCountry;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lcom/liquable/nemo/model/forum/ForumCountry;->TH:Lcom/liquable/nemo/model/forum/ForumCountry;
+    sput-object v0, Lcom/liquable/nemo/model/forum/ForumCountry;->BR:Lcom/liquable/nemo/model/forum/ForumCountry;
 
     .line 24
     new-instance v0, Lcom/liquable/nemo/model/forum/ForumCountry;
@@ -268,7 +268,7 @@
 
     const/4 v1, 0x7
 
-    sget-object v2, Lcom/liquable/nemo/model/forum/ForumCountry;->TH:Lcom/liquable/nemo/model/forum/ForumCountry;
+    sget-object v2, Lcom/liquable/nemo/model/forum/ForumCountry;->BR:Lcom/liquable/nemo/model/forum/ForumCountry;
 
     aput-object v2, v0, v1
 
@@ -323,7 +323,7 @@
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lcom/liquable/nemo/model/forum/ForumCountry;->TH:Lcom/liquable/nemo/model/forum/ForumCountry;
+    sget-object v1, Lcom/liquable/nemo/model/forum/ForumCountry;->BR:Lcom/liquable/nemo/model/forum/ForumCountry;
 
     aput-object v1, v0, v4
 
