@@ -54,14 +54,7 @@
 
     .prologue
     .line 360
-    iget-object v0, p0, Lcom/liquable/nemo/MainActivity$4;->this$0:Lcom/liquable/nemo/MainActivity;
-
-    # getter for: Lcom/liquable/nemo/MainActivity;->tabs:[Lcom/liquable/nemo/MainActivity$TabType;
-    invoke-static {v0}, Lcom/liquable/nemo/MainActivity;->access$700(Lcom/liquable/nemo/MainActivity;)[Lcom/liquable/nemo/MainActivity$TabType;
-
-    move-result-object v0
-
-    array-length v0, v0
+    const/4 v0, 0x3
 
     return v0
 .end method

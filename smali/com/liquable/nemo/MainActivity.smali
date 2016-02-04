@@ -675,9 +675,7 @@
 
     .local v0, "i":I
     :goto_0
-    iget-object v2, p0, Lcom/liquable/nemo/MainActivity;->tabs:[Lcom/liquable/nemo/MainActivity$TabType;
-
-    array-length v2, v2
+    const/4 v2, 0x3
 
     if-ge v0, v2, :cond_2
 
@@ -1064,9 +1062,7 @@
 
     .local v0, "i":I
     :goto_1
-    iget-object v1, p0, Lcom/liquable/nemo/MainActivity;->tabs:[Lcom/liquable/nemo/MainActivity$TabType;
-
-    array-length v1, v1
+    const/4 v1, 0x3
 
     if-ge v0, v1, :cond_1
 
