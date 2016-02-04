@@ -325,11 +325,6 @@
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    .line 83
-    iget-object v1, p0, Lcom/liquable/nemo/forum/FavoriteBoardListAdapter;->recommends:Ljava/util/List;
-
-    invoke-interface {v1, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
-
     .line 84
     new-instance v0, Ljava/util/ArrayList;
 
@@ -337,9 +332,6 @@
 
     .line 85
     .local v0, "mergedBoards":Ljava/util/List;, "Ljava/util/List<Lcom/liquable/nemo/forum/model/board/ForumBoard;>;"
-    invoke-interface {v0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
-
-    .line 86
     invoke-interface {v0, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     .line 87
