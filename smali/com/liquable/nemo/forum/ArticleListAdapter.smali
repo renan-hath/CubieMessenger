@@ -1405,7 +1405,7 @@
 
     iget-object v1, v0, Lcom/liquable/nemo/forum/ArticleListAdapter$NormalViewHolder;->articleTitleTextView:Landroid/widget/TextView;
 
-    const/high16 v2, -0x10000
+    const v2, -0x222223
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 

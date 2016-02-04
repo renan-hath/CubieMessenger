@@ -49,7 +49,7 @@
     .line 20
     iget-object v0, p0, Lcom/liquable/nemo/forum/view/UnknownReplyView;->textReplyContentTextView:Landroid/widget/TextView;
 
-    const/high16 v1, -0x10000
+    const v1, -0x222223
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
