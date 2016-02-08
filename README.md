@@ -4,7 +4,7 @@
 * Cubie Space enabled
 * Unlimited Custom Stickers
 
-# **In progress** [lll ] #
+# **In progress** [%] #
 
 * Strings overhaul
 * Layout overhaul
