@@ -3,7 +3,7 @@
 * ✓ Cubie is linked to Pal+ servers
 * ✓ Cubie Space enabled
 * ✓ Unlimited Custom Stickers
-1. oi
+
 ## **In progress** ##
 
 * [¿] Strings overhaul
