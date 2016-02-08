@@ -8,6 +8,7 @@
 
 * Strings overhaul [¿]
 * Layout overhaul [¿] 
+* Cubie Lite Layout overhaul [¿] 
 * Private News Feed [50%] 
 * YouTube fix [50%] 
 
@@ -17,6 +18,7 @@
 * Allow export_file_msg / other files beyond audio for transfer
 * Add more images for emoticons / store stickers / sticker effects
 * Allow support for GIFs
+* Cubie Lite: allow other files beyond image for transfer
 
 » Cubie Space
 
