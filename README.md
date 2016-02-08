@@ -4,7 +4,7 @@
 * Cubie Space enabled
 * Unlimited Custom Stickers
 
-# **In progress** [%] #
+# **In progress** % #
 
 * YouTube fix
 * Private News Feed
@@ -12,7 +12,7 @@
 * Layout overhaul
 * Cubie Lite Layout overhaul
 
-### Wonderland ###
+### Wonderland ∞ ###
 
 * Aviary Editor fix
 * Allow export_file_msg / other files beyond audio for transfer
