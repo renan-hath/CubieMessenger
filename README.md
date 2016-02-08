@@ -10,7 +10,7 @@
 * Private News Feed
 * Strings overhaul
 * Layout overhaul
-* Cubie Lite Layout overhaul
+* Pal+ Lite Layout overhaul
 
 ### Wonderland ∞ ###
 
