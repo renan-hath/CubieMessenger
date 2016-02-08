@@ -6,11 +6,11 @@
 
 # **In progress** [%] #
 
+* YouTube fix
+* Private News Feed
 * Strings overhaul
 * Layout overhaul
 * Cubie Lite Layout overhaul
-* Private News Feed
-* YouTube fix
 
 ### Wonderland ###
 
