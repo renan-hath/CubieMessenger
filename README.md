@@ -26,5 +26,5 @@
 * Change green triangle-star from "Forum" tab for the triangle-number from "Chat" tab for notifying posts
 * Make articles go to the top when replied (might aswell use the "Pin article" command from Pal+ for that matter)
 * Change images' thumbnails resolution in posts
-* Hide "O post foi removido" posts
+* Hide "Tópico removido" articles
 * Support unsupported posts OR hide them
