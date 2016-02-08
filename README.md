@@ -1,16 +1,16 @@
-# **Done** #
+# **Done ✓** #
 
-* Cubie is linked to Pal+ servers ✓ 
-* Cubie Space enabled ✓ 
-* Unlimited Custom Stickers ✓ 
+* Cubie is linked to Pal+ servers 
+* Cubie Space enabled
+* Unlimited Custom Stickers
 
 # **In progress** #
 
-* Strings overhaul [¿]
-* Layout overhaul [¿] 
-* Cubie Lite Layout overhaul [¿] 
-* Private News Feed [50%] 
-* YouTube fix [50%] 
+* Strings overhaul
+* Layout overhaul
+* Cubie Lite Layout overhaul
+* Private News Feed
+* YouTube fix
 
 ### Wonderland ###
 
