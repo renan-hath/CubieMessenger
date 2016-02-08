@@ -1,10 +1,10 @@
-## **Done** ##
+# **Done** #
 
 * Cubie is linked to Pal+ servers ✓ 
 * Cubie Space enabled ✓ 
 * Unlimited Custom Stickers ✓ 
 
-## **In progress** ##
+# **In progress** #
 
 * Strings overhaul [¿]
 * Layout overhaul [¿] 
