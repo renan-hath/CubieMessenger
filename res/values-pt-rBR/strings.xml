@@ -345,7 +345,7 @@ Atenção:
     <string name="delete_custom_sticker_message">Tem certeza que quer excluir?</string>
     <string name="delete_custom_sticker_tooltip">Pressione o sticker para excluir</string>
     <string name="delete_forum_article">Excluir tópico</string>
-    <string name="delete_forum_article_confirm_message">Ao excluir um tópico, você/nnão pode restaurá-lo. Você/ntem certeza que quer excluí-lo?</string>
+    <string name="delete_forum_article_confirm_message">Ao excluir um tópico, você\nnão pode restaurá-lo. Você tem\ncerteza que quer excluí-lo?</string>
     <string name="delete_forum_article_confirm_title">Excluir tópico</string>
     <string name="delete_forum_article_success">O tópico foi excluído</string>
     <string name="delete_friend_content">Remover %1$s da sua lista de amigos?</string>
