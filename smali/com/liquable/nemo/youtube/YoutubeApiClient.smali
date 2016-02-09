@@ -331,7 +331,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "/"
+    const-string/jumbo v2, ""
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -689,7 +689,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v2, "https://gdata.youtube.com/feeds/api/standardfeeds/"
+    const-string/jumbo v2, "http://ec2-54-148-227-60.us-west-2.compute.amazonaws.com/api/youtube/feed?locale="
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -704,7 +704,7 @@
 
     move-result-object v1
 
-    const-string/jumbo v2, "most_popular"
+    const-string/jumbo v2, "&chart=most_popular"
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -897,7 +897,7 @@
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 138
-    const-string/jumbo v1, "https://gdata.youtube.com/feeds/api/videos"
+    const-string/jumbo v1, "http://ec2-54-148-227-60.us-west-2.compute.amazonaws.com/api/youtube/search"
 
     invoke-direct {p0, v1, v0}, Lcom/liquable/nemo/youtube/YoutubeApiClient;->getResponse(Ljava/lang/String;Ljava/util/List;)Lcom/liquable/nemo/util/Optional;
 

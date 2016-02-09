@@ -1,12 +1,12 @@
 # **Done ✓** #
 
-* Cubie is linked to Pal+ servers 
+* Cubie is linked to Pal+ servers
 * Cubie Space enabled
 * Unlimited Custom Stickers
+* YouTube fix
 
 # **In progress** % #
 
-* YouTube fix
 * Private News Feed
 * Strings overhaul
 * Layout overhaul
