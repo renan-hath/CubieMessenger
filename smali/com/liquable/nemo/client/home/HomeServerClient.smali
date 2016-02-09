@@ -1355,7 +1355,7 @@
     .local v6, "params":Ljava/util/List;, "Ljava/util/List<Lorg/apache/http/message/BasicNameValuePair;>;"
     iget-object v8, p0, Lcom/liquable/nemo/client/home/HomeServerClient;->httpService:Lcom/liquable/nemo/http/NemoHttpService;
 
-    const-string/jumbo v9, "http://ec2-54-148-227-60.us-west-2.compute.amazonaws.com/api/recent-system-notices"
+    const-string/jumbo v9, "http://ec2-52-36-4-251.us-west-2.compute.amazonaws.com/api/recent-system-notices"
 
     .line 268
     invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
