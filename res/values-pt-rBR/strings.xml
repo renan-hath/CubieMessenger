@@ -107,11 +107,11 @@
     <string name="apply_custom_effect_title">Escolha um frame</string>
     <string name="article"></string>
     <string name="article_delete_reason_by_abuse_report">(Censurado)</string>
-    <string name="article_delete_reason_by_author">(Deletado por autor)</string>
-    <string name="article_delete_reason_by_board_creator">(Deletado por criador do tópico)</string>
+    <string name="article_delete_reason_by_author">pelo autor</string>
+    <string name="article_delete_reason_by_board_creator">pelo dono da comunidade</string>
     <string name="article_delete_reason_unknown" />
-    <string name="article_has_been_deleted">Post foi removido</string>
-    <string name="article_has_been_reported">Post foi denunciado</string>
+    <string name="article_has_been_deleted">Tópico removido</string>
+    <string name="article_has_been_reported">Tópico denunciado</string>
     <string name="article_title_exceed_max_line_count">Posts não podem ter mais de %1$s linhas</string>
     <string name="article_type_normal">Geral</string>
     <string name="article_type_unknown">Desconhecido</string>
@@ -158,7 +158,7 @@ Atenção:
     <string name="b_sound_name">Cubie mono</string>
     <string name="backup_complete">Backup concluído</string>
     <string name="backup_failed">Backup falhou</string>
-    <string name="backup_not_exists">Arquivo de backup não existe</string>
+    <string name="backup_not_exists">Você ainda não fez um backup</string>
     <string name="backup_restore_failed">A restauração de dados falhou</string>
     <string name="backup_restore_failed_message">Falha ao restaurar os dados. Você quer tentar de novo?</string>
     <string name="backup_title">Backup</string>
@@ -179,7 +179,7 @@ Atenção:
     <string name="board_description_exceed_max_line_count">Descrições não podem ultrapassar %1$s linhas</string>
     <string name="board_has_been_deleted">Esse tópico foi removido.</string>
     <string name="board_has_been_reported">Esse tópico foi denunciado</string>
-    <string name="board_search_placeholder">Nome do tópico</string>
+    <string name="board_search_placeholder">Nome da comunidade</string>
     <string name="border_name">Livre</string>
     <string name="bug_report_setting_title">Relatar um bug</string>
     <string name="c_sound_name">Baixo duplo</string>
@@ -193,7 +193,7 @@ Atenção:
     <string name="cannot_receive_pincode">Verificação de Chamada de Voz</string>
     <string name="cant_play_audio">Não é possível reproduzir %1$s</string>
     <string name="cant_retrieve_selected_bitmap">Falha ao processar o arquivo de imagem selecionado</string>
-    <string name="category_and_search_forum_tab">Search</string>
+    <string name="category_and_search_forum_tab">Categoria</string>
     <string name="change_forum_board_description">Change Description</string>
     <string name="change_forum_board_icon">Change Picture</string>
     <string name="change_forum_board_title">Change Title</string>
@@ -228,7 +228,7 @@ Atenção:
     <string name="choose_location_title">Escolher um local</string>
     <string name="clear_chat_history">Limpar mensagens</string>
     <string name="clear_chat_history_dialog_delete">Limpar</string>
-    <string name="clear_chat_history_dialog_message">Limpar todas as mensagens deste Grupo?</string>
+    <string name="clear_chat_history_dialog_message">Limpar todas as mensagens desse chat?</string>
     <string name="clear_chat_history_dialog_title">Limpar</string>
     <string name="clear_chat_room_history_dialog_message">"Clear all messages in '%1$s' chat room?"</string>
     <string name="clear_paint">Clear drawing</string>
@@ -282,7 +282,7 @@ Atenção:
     <string name="create">Criar</string>
     <string name="create_chat_group">Criar</string>
     <string name="create_chat_group_shortcut">Criar um atalho na área de trabalho</string>
-    <string name="create_chat_group_title">Criar um grupo</string>
+    <string name="create_chat_group_title">Criar grupo</string>
     <string name="create_custom_sticker_failed">Não foi possível criar o sticker. Cheque a sua conexão ou o armazenamento do celular.</string>
     <string name="create_forum_article_failed">Algo deu errado! Por favor, tente novamente.</string>
     <string name="create_forum_article_title">Criar tópico</string>
@@ -341,17 +341,17 @@ Atenção:
     <string name="delete_and_block_friend_content">Bloquear %1$s também</string>
     <string name="delete_and_block_friend_title_ios">Remover e bloquear %1$s ?</string>
     <string name="delete_and_leave_group">Sair do grupo</string>
-    <string name="delete_custom_sticker">Delete</string>
-    <string name="delete_custom_sticker_message">Are you sure you want to delete this?</string>
-    <string name="delete_custom_sticker_tooltip">Press and hold to delete sticker</string>
-    <string name="delete_forum_article">Remove Post</string>
-    <string name="delete_forum_article_confirm_message">Once you delete a post it cannot be restored. Are you sure you want to remove it?</string>
-    <string name="delete_forum_article_confirm_title">Remove Post</string>
-    <string name="delete_forum_article_success">Post has been removed</string>
+    <string name="delete_custom_sticker">Excluir</string>
+    <string name="delete_custom_sticker_message">Tem certeza que quer excluir?</string>
+    <string name="delete_custom_sticker_tooltip">Pressione o sticker para excluir</string>
+    <string name="delete_forum_article">Excluir tópico</string>
+    <string name="delete_forum_article_confirm_message">Ao excluir um tópico, você/nnão pode restaurá-lo. Você/ntem certeza que quer excluí-lo?</string>
+    <string name="delete_forum_article_confirm_title">Excluir tópico</string>
+    <string name="delete_forum_article_success">O tópico foi excluído</string>
     <string name="delete_friend_content">Remover %1$s da sua lista de amigos?</string>
     <string name="delete_friend_success">%1$s foi removido</string>
     <string name="delete_friend_title">Remover</string>
-    <string name="delete_message">Excluir esta mensagem</string>
+    <string name="delete_message">Excluir essa mensagem</string>
     <string name="delete_photo">Excluir</string>
     <string name="description_caller_id">"Faça uma chamada de voz ao servidor do Cubie para verificar o seu número de telefone. Desligue logo após ouvir o tom ocupado. 
  
@@ -375,7 +375,7 @@ Atenção:
     <string name="download_sticker_title_status_bar">Baixando os stickers do Cubie...</string>
     <string name="download_wallpaper_failed">Não foi possível fazer o download dos Papeis de Parede do Cubie</string>
     <string name="download_wallpaper_title_status_bar">Download do Papel de Parede do Cubie…</string>
-    <string name="drag_handle_to_reorder">Arraste o ícone para organizar seus pacotes de sticker</string>
+    <string name="drag_handle_to_reorder">Arraste o ícone à esquerda para organizar os seus pacotes de sticker</string>
     <string name="drag_image_crop">Drag to crop</string>
     <string name="e_sound_name">Alerta alto</string>
     <string name="echo_failed">Falha de eco</string>
@@ -395,7 +395,7 @@ Atenção:
     <string name="error_cannot_decode_picture">Erro de formato de imagem.</string>
     <string name="error_decrypt_secret_msg">Falha na Decodificação desta Mensagem Secreta</string>
     <string name="error_empty_input_text">Insira o nome do amigo</string>
-    <string name="error_facebook">Algo saiu errado ao conectar ao Facebook, tente novamente mais tarde.</string>
+    <string name="error_facebook">Algo deu errado ao conectar ao Facebook, tente novamente mais tarde.</string>
     <string name="error_feature_not_support_camera">Nenhum aplicativo de câmera no seu telefone.</string>
     <string name="error_feature_not_support_pick_audio">Nenhum aplicativo de seleção de música pode ser escolhido em seu telefone.</string>
     <string name="error_feature_not_support_pick_photo">Nenhum aplicativo de seleção de foto no seu telefone.</string>
@@ -406,10 +406,10 @@ Atenção:
     <string name="error_open_api">An API error occurred</string>
     <string name="error_paste_paint_fail">Falha ao colar no painel.</string>
     <string name="error_please_reinstall_dialog_message">Ocorreu um erro. Reinstale o Cubie.</string>
-    <string name="error_please_try_later">Algo saiu errado, tente novamente mais tarde.</string>
+    <string name="error_please_try_later">Algo deu errado, tente novamente mais tarde.</string>
     <string name="error_set_notification_time">A hora de início deve ser anterior à hora final</string>
     <string name="error_take_photo">Erro no processamento da foto. Tente novamente mais tarde.</string>
-    <string name="error_twitter">Algo saiu errado ao conectar ao Twitter, tente novamente mais tarde.</string>
+    <string name="error_twitter">Algo deu errado ao conectar ao Twitter, tente novamente mais tarde.</string>
     <string name="error_voice_record_fail">Falha ao gravar o áudio.</string>
     <string name="error_voice_request_not_found">Não foi possível verificar sua chamada de voz, tente novamente. Se ainda não foi possível verificar seu telefone, relate este problema via e-mail: help@cubie.com</string>
     <string name="error_youtube_not_recoverable">YouTube apresentou um erro: %1$s</string>
@@ -417,7 +417,7 @@ Atenção:
     <string name="exceed_member_limit">Limite de membros excedido (limite:%1$s)</string>
     <string name="exclude_in_mututal_friends_summary">Não me recomende para amigos em comum</string>
     <string name="exclude_in_mututal_friends_title">Esconder minhas Amizades</string>
-    <string name="exclude_in_recommend_friends_summary">Não me sugerir na lista Amigos sugeridos de nenhum usuário do Cubie.</string>
+    <string name="exclude_in_recommend_friends_summary">Não me sugerir na lista Amigos sugeridos de nenhum usuário do Cubie</string>
     <string name="exclude_in_recommend_friends_title">Não me sugerir</string>
     <string name="excluded_in_recommend_warning">"Você ativou a opção 'Não me sugerir'. Desative-a em Configurações -> Privacidade"</string>
     <string name="export_message">Exportar histórico</string>
@@ -470,7 +470,7 @@ Atenção:
     <string name="favorite_board_now_title">Entrar</string>
     <string name="favorite_board_reach_limit">"Você não pode entrar em mais de %1$s comunidades"</string>
     <string name="favorite_board_successfully">Você entrou na comunidade</string>
-    <string name="favorite_board_title">Add to Favorites</string>
+    <string name="favorite_board_title">Entrar / Sair</string>
     <string name="favorite_forum_tab">Forum</string>
     <string name="feather_about_dialog_message">O Aviary é a plataforma líder mundial de edição de fotos. Desenvolvedores: saibam como adicioná-lo ao seu aplicativo em minutos.</string>
     <string name="feather_activity_not_found">Desculpe, não há aplicativo no seu telefone para realizar esta ação. Você quer baixá-lo do mercado?</string>
@@ -573,7 +573,7 @@ Atenção:
     <string name="find_cubie_friends">Encontrar amigos no Cubie</string>
     <string name="find_friends_in_contacts">Procurar amigos nos Contatos</string>
     <string name="find_friends_in_contacts_auto_description">Permita que o Cubie faça a sincronização automática de seus Contatos.</string>
-    <string name="find_friends_in_contacts_description">Clique no botão Procurar para ver se você tem amigos da sua lista de Contatos que usam o Cubie.</string>
+    <string name="find_friends_in_contacts_description">Clique no botão Procurar para adicionar amigos que já usam o Cubie da lista de Contatos do celular.</string>
     <string name="find_friends_on_facebook">Procurar amigos no Facebook</string>
     <string name="find_friends_on_twitter">Procurar amigos no Twitter</string>
     <string name="finished">Finished</string>
@@ -600,14 +600,14 @@ Atenção:
     <string name="forum_article_title_is_blank">"Você tem que escolher um título para o seu tópico."</string>
     <string name="forum_board">Comunidade</string>
     <string name="forum_board_category">Categoria</string>
-    <string name="forum_board_category_is_blank">Você precisa escolher uma categoria.</string>
+    <string name="forum_board_category_is_blank">Você precisa escolher uma categoria</string>
     <string name="forum_board_creator">Dono</string>
     <string name="forum_board_description">Descrição</string>
     <string name="forum_board_description_placeholder">Descrição</string>
     <string name="forum_board_icon_title">Escolher foto</string>
     <string name="forum_board_info_certificate">Comunidade aprovada</string>
     <string name="forum_board_title">Nome</string>
-    <string name="forum_board_title_is_blank">Você precisa escolher um nome para a comunidade.</string>
+    <string name="forum_board_title_is_blank">Você precisa escolher um nome para a comunidade</string>
     <string name="forum_board_title_placeholder">Nome</string>
     <string name="forum_category_placeholder">Escolher categoria</string>
     <string name="forum_category_title">Categoria</string>
@@ -619,7 +619,7 @@ Atenção:
     <string name="forum_report_abuse_reason_title">"Por favor, explique por que você está fazendo essa denúncia."</string>
     <string name="forum_tutorial_intro">Esse é o Cubie Space, o fórum do aplicativo!</string>
     <string name="forum_tutorial_intro_create">Aqui você pode criar a sua comunidade!</string>
-    <string name="forum_tutorial_intro_create_article">E por aqui, você cria um novo tópico nela!</string>
+    <string name="forum_tutorial_intro_create_article">E por aqui, você cria um novo tópico!</string>
     <string name="forum_tutorial_intro_favorite">Use esse botão para entrar na comunidade. Assim, você poderá postar nela e ela aparecerá na sua lista de comunidades.</string>
     <string name="forum_tutorial_intro_hot">Check out trending topics!</string>
     <string name="forum_tutorial_intro_recommend">Nessa tela irão aparecer todas as comunidades das quais você faz parte.</string>
@@ -684,7 +684,7 @@ Atenção:
     <string name="in_one_month">Em um mês</string>
     <string name="in_one_year">Em um ano</string>
     <string name="input_message_exceed_max_line_count">"Comments can't be longer than %1$s lines"</string>
-    <string name="input_phone_number">Insira o Número de Telefone</string>
+    <string name="input_phone_number">Número de celular</string>
     <string name="instagram_cubie_caption">\#cubie</string>
     <string name="instagram_not_installed">Instagram não instalado</string>
     <string name="intent_filter_app_name">Cubie</string>
@@ -725,7 +725,7 @@ Atenção:
     <string name="last_ask_location_msg">%1$s quer saber onde você tá.</string>
     <string name="last_ask_picture_msg">Pedido de foto %1$s</string>
     <string name="last_audio_msg">%1$s enviou uma música</string>
-    <string name="last_backup_time">Hora do último backup: %1$s</string>
+    <string name="last_backup_time">Data do último backup: %1$s</string>
     <string name="last_custom_sticker_msg">%1$s enviou um sticker</string>
     <string name="last_file_msg">%1$s sent a file</string>
     <string name="last_like_photo_msg">%1$s gostou da foto de %2$s</string>
@@ -738,7 +738,7 @@ Atenção:
     <string name="last_secret_text_msg">%1$s enviou um sussurro</string>
     <string name="last_sticker_msg">%1$s enviou um sticker</string>
     <string name="last_sync_address_book_time_ios">Última Atualização: %1$s</string>
-    <string name="last_sync_contact_time">Hora da última sincronização: %1$s</string>
+    <string name="last_sync_contact_time">Data da última sincronização: %1$s</string>
     <string name="last_video_msg">%1$s enviou um vídeo.</string>
     <string name="last_voice_msg">%1$s enviou mensagem de voz</string>
     <string name="last_youtube_msg">%1$s enviou um vídeo do YouTube</string>
@@ -768,7 +768,7 @@ Atenção:
     <string name="login_remember_me">Remember me on this device</string>
     <string name="logout">Desconectar</string>
     <string name="m_sound_name">Pio</string>
-    <string name="manage_custom_sticker">Manage Stickers</string>
+    <string name="manage_custom_sticker">Gerenciar Stickers</string>
     <string name="manual_import_address_book_ios">Adicionar Amigos Manualmente</string>
     <string name="manual_import_from_contacts">Procurar</string>
     <string name="maximize_window">Maximize</string>
@@ -998,7 +998,7 @@ Atenção:
     <string name="remind_me_later">Remind me later</string>
     <string name="remote_notification_type_alert_not_present">As notificações estão desativadas nos seus Ajustes do iPhone. Ative-as para receber as notificações.</string>
     <string name="remove">Remover</string>
-    <string name="remove_media_files_summary">Arquivos de mídia(fotos, vídeos e áudios) antigos serão excluídos automaticamente.</string>
+    <string name="remove_media_files_summary">Fotos, vídeos e áudios antigos serão excluídos automaticamente para economizar armazenamento do celular</string>
     <string name="remove_media_files_title">Excluir arquivos de mídia antigos automaticamente</string>
     <string name="remove_member">Remover membro</string>
     <string name="remove_member_dialog_message">Tem certeza que quer remover %1$s do grupo?</string>
@@ -1093,7 +1093,7 @@ Atenção:
     <string name="share_app_with_twitter_description">"The cake is a lie."</string>
     <string name="share_app_with_twitter_dialog_message">Publicar um tweet pra contar sobre o Cubie?</string>
     <string name="share_file">Share files</string>
-    <string name="share_from_cubie_space">Shared from Cubie Space</string>
+    <string name="share_from_cubie_space">Tópico:</string>
     <string name="share_media_fail">Falhou</string>
     <string name="share_media_success">Enviando...</string>
     <string name="share_picture_placeholder">Deixe um comentário!</string>
@@ -1202,7 +1202,7 @@ Atenção:
     <string name="verify_pincode_title">Verifique o Código Pin</string>
     <string name="version_incompatible_error_exception">Versão incompatível, instale a versão mais recente do Cubie e tente novamente.</string>
     <string name="version_incompatible_error_exception_dialog_title">Versão incompatível</string>
-    <string name="version_summary">Sua Versão do Cubie é %1$s</string>
+    <string name="version_summary">%1$s</string>
     <string name="version_title">Versão</string>
     <string name="video">Vídeo</string>
     <string name="video_download">Baixar</string>
@@ -1223,7 +1223,7 @@ Atenção:
     <string name="voice_msg_setting_summary_speaker">Selecionado: Auto-falante</string>
     <string name="voice_msg_setting_title">Saída de som de áudios recebidos</string>
     <string name="voice_msg_too_short">A mensagem de voz é muito curta</string>
-    <string name="voice_play_tip">Você pode mudar a mensagem de voz nas Configurações → Chat</string>
+    <string name="voice_play_tip">Você pode mudar a saída de som\ndo áudio em Configurações → Chat</string>
     <string name="voip_answer_btn">Aceitar</string>
     <string name="voip_answering">Aceitando</string>
     <string name="voip_call_back_btn">✆ Ligar de volta</string>
@@ -1275,7 +1275,7 @@ Atenção:
     <string name="you">Você</string>
     <string name="youtube">YouTube</string>
     <string name="youtube_clear_search_history">Limpar histórico de pesquisa</string>
-    <string name="youtube_now_playing">Playing...</string>
+    <string name="youtube_now_playing">Assistindo</string>
     <string name="youtube_original_url">Assista no YouTube</string>
     <string name="youtube_search_placeholder">Pesquisar vídeos</string>
     <string name="youtube_tab_film">Filmes</string>
