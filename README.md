@@ -5,6 +5,7 @@
 * Unlimited Custom Stickers
 * YouTube fix
 * Cubie Lite released
+* Removed articles are hidden (Space)
 
 # **In progress** % #
 
@@ -29,7 +30,6 @@
 (nemo\forum\ArticleReplyListFragment - Line 361, ForumImagePreviewFragment - Line 185)
 * Change images' thumbnails resolution in posts
 (nemo\forum\ForumImagePreviewFragment - Line 119)
-* Hide "Tópico removido" articles
 * Support unsupported posts OR hide them
 
 » Cubie Lite
