@@ -23,7 +23,8 @@
 
 * Notify every single post from favorite boards
 (Terms: forum_reply_notification, ForumReplyNotification, 0x7f0d02ad)
-* Change green triangle-star from "Forum" tab for the triangle-number from "Chat" tab for notifying posts
+* Make forum tab count notifications like chat tab instead of showing a star (Terms: unread_count)
+* Remove delay from forum tab notification so it can be immediate like chat tab
 * Make articles go to the top when replied
 (Pin Article terms: update_top_forum_article, updateTopArticleItem, 0x7f070594)
 * Remove post's character limit
