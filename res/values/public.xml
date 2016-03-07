@@ -660,6 +660,7 @@
     <public type="drawable" name="voip_green_btn" id="0x7f02055a" />
     <public type="drawable" name="voip_red_btn" id="0x7f020562" />
     <public type="drawable" name="com_facebook_picker_default_separator_color" id="0x7f020594" />
+    <public type="drawable" name="classify_emoji_msn_tab" id="0x7f020597" />
     <public type="drawable" name="aviary_text_highlight_bg_normal" id="0x7f0200e1" />
     <public type="drawable" name="aviary_text_highlight_bg_pressed" id="0x7f0200e2" />
     <public type="drawable" name="com_mixpanel_android_arrowleft" id="0x7f020287" />
@@ -864,6 +865,8 @@
     <public type="drawable" name="intro_3_small" id="0x7f02047b" />
     <public type="drawable" name="intro_4_small" id="0x7f02047d" />
     <public type="drawable" name="intro_shadow_small" id="0x7f020480" />
+    <public type="drawable" name="classify_emoji_msn_tab_normal" id="0x7f020598" />
+    <public type="drawable" name="classify_emoji_msn_tab_pressed" id="0x7f020599" />
     <public type="drawable" name="action_icon_create_chatgroup" id="0x7f020070" />
     <public type="drawable" name="action_icon_history" id="0x7f020073" />
     <public type="drawable" name="action_icon_map" id="0x7f020074" />
@@ -1540,6 +1543,98 @@
     <public type="drawable" name="wallpaper_52" id="0x7f020590" />
     <public type="drawable" name="wallpaper_53" id="0x7f020591" />
     <public type="drawable" name="wallpaper_54" id="0x7f020592" />
+    <public type="drawable" name="background_v4" id="0x7f020595" />
+    <public type="drawable" name="wallpaper_55" id="0x7f020596" />
+    <public type="drawable" name="emoji_k1" id="0x7f02059a" />
+    <public type="drawable" name="emoji_k10" id="0x7f02059b" />
+    <public type="drawable" name="emoji_k11" id="0x7f02059c" />
+    <public type="drawable" name="emoji_k12" id="0x7f02059d" />
+    <public type="drawable" name="emoji_k13" id="0x7f02059e" />
+    <public type="drawable" name="emoji_k14" id="0x7f02059f" />
+    <public type="drawable" name="emoji_k15" id="0x7f0205a0" />
+    <public type="drawable" name="emoji_k16" id="0x7f0205a1" />
+    <public type="drawable" name="emoji_k17" id="0x7f0205a2" />
+    <public type="drawable" name="emoji_k18" id="0x7f0205a3" />
+    <public type="drawable" name="emoji_k19" id="0x7f0205a4" />
+    <public type="drawable" name="emoji_k2" id="0x7f0205a5" />
+    <public type="drawable" name="emoji_k20" id="0x7f0205a6" />
+    <public type="drawable" name="emoji_k21" id="0x7f0205a7" />
+    <public type="drawable" name="emoji_k22" id="0x7f0205a8" />
+    <public type="drawable" name="emoji_k23" id="0x7f0205a9" />
+    <public type="drawable" name="emoji_k24" id="0x7f0205aa" />
+    <public type="drawable" name="emoji_k25" id="0x7f0205ab" />
+    <public type="drawable" name="emoji_k26" id="0x7f0205ac" />
+    <public type="drawable" name="emoji_k27" id="0x7f0205ad" />
+    <public type="drawable" name="emoji_k28" id="0x7f0205ae" />
+    <public type="drawable" name="emoji_k29" id="0x7f0205af" />
+    <public type="drawable" name="emoji_k3" id="0x7f0205b0" />
+    <public type="drawable" name="emoji_k30" id="0x7f0205b1" />
+    <public type="drawable" name="emoji_k31" id="0x7f0205b2" />
+    <public type="drawable" name="emoji_k32" id="0x7f0205b3" />
+    <public type="drawable" name="emoji_k33" id="0x7f0205b4" />
+    <public type="drawable" name="emoji_k34" id="0x7f0205b5" />
+    <public type="drawable" name="emoji_k35" id="0x7f0205b6" />
+    <public type="drawable" name="emoji_k36" id="0x7f0205b7" />
+    <public type="drawable" name="emoji_k37" id="0x7f0205b8" />
+    <public type="drawable" name="emoji_k38" id="0x7f0205b9" />
+    <public type="drawable" name="emoji_k39" id="0x7f0205ba" />
+    <public type="drawable" name="emoji_k4" id="0x7f0205bb" />
+    <public type="drawable" name="emoji_k40" id="0x7f0205bc" />
+    <public type="drawable" name="emoji_k41" id="0x7f0205bd" />
+    <public type="drawable" name="emoji_k42" id="0x7f0205be" />
+    <public type="drawable" name="emoji_k43" id="0x7f0205bf" />
+    <public type="drawable" name="emoji_k44" id="0x7f0205c0" />
+    <public type="drawable" name="emoji_k45" id="0x7f0205c1" />
+    <public type="drawable" name="emoji_k46" id="0x7f0205c2" />
+    <public type="drawable" name="emoji_k47" id="0x7f0205c3" />
+    <public type="drawable" name="emoji_k48" id="0x7f0205c4" />
+    <public type="drawable" name="emoji_k49" id="0x7f0205c5" />
+    <public type="drawable" name="emoji_k5" id="0x7f0205c6" />
+    <public type="drawable" name="emoji_k50" id="0x7f0205c7" />
+    <public type="drawable" name="emoji_k51" id="0x7f0205c8" />
+    <public type="drawable" name="emoji_k52" id="0x7f0205c9" />
+    <public type="drawable" name="emoji_k53" id="0x7f0205ca" />
+    <public type="drawable" name="emoji_k54" id="0x7f0205cb" />
+    <public type="drawable" name="emoji_k55" id="0x7f0205cc" />
+    <public type="drawable" name="emoji_k56" id="0x7f0205cd" />
+    <public type="drawable" name="emoji_k57" id="0x7f0205ce" />
+    <public type="drawable" name="emoji_k58" id="0x7f0205cf" />
+    <public type="drawable" name="emoji_k59" id="0x7f0205d0" />
+    <public type="drawable" name="emoji_k6" id="0x7f0205d1" />
+    <public type="drawable" name="emoji_k60" id="0x7f0205d2" />
+    <public type="drawable" name="emoji_k61" id="0x7f0205d3" />
+    <public type="drawable" name="emoji_k62" id="0x7f0205d4" />
+    <public type="drawable" name="emoji_k63" id="0x7f0205d5" />
+    <public type="drawable" name="emoji_k64" id="0x7f0205d6" />
+    <public type="drawable" name="emoji_k65" id="0x7f0205d7" />
+    <public type="drawable" name="emoji_k66" id="0x7f0205d8" />
+    <public type="drawable" name="emoji_k67" id="0x7f0205d9" />
+    <public type="drawable" name="emoji_k68" id="0x7f0205da" />
+    <public type="drawable" name="emoji_k69" id="0x7f0205db" />
+    <public type="drawable" name="emoji_k7" id="0x7f0205dc" />
+    <public type="drawable" name="emoji_k70" id="0x7f0205dd" />
+    <public type="drawable" name="emoji_k71" id="0x7f0205de" />
+    <public type="drawable" name="emoji_k72" id="0x7f0205df" />
+    <public type="drawable" name="emoji_k73" id="0x7f0205e0" />
+    <public type="drawable" name="emoji_k74" id="0x7f0205e1" />
+    <public type="drawable" name="emoji_k75" id="0x7f0205e2" />
+    <public type="drawable" name="emoji_k76" id="0x7f0205e3" />
+    <public type="drawable" name="emoji_k77" id="0x7f0205e4" />
+    <public type="drawable" name="emoji_k78" id="0x7f0205e5" />
+    <public type="drawable" name="emoji_k79" id="0x7f0205e6" />
+    <public type="drawable" name="emoji_k8" id="0x7f0205e7" />
+    <public type="drawable" name="emoji_k80" id="0x7f0205e8" />
+    <public type="drawable" name="emoji_k81" id="0x7f0205e9" />
+    <public type="drawable" name="emoji_k82" id="0x7f0205ea" />
+    <public type="drawable" name="emoji_k83" id="0x7f0205eb" />
+    <public type="drawable" name="emoji_k84" id="0x7f0205ec" />
+    <public type="drawable" name="emoji_k85" id="0x7f0205ed" />
+    <public type="drawable" name="emoji_k86" id="0x7f0205ee" />
+    <public type="drawable" name="emoji_k87" id="0x7f0205ef" />
+    <public type="drawable" name="emoji_k88" id="0x7f0205f0" />
+    <public type="drawable" name="emoji_k89" id="0x7f0205f1" />
+    <public type="drawable" name="emoji_k9" id="0x7f0205f2" />
+    <public type="drawable" name="emoji_k90" id="0x7f0205f3" />
     <public type="drawable" name="action_icon_create_board" id="0x7f02006f" />
     <public type="drawable" name="action_icon_edit" id="0x7f020071" />
     <public type="drawable" name="action_icon_favorite_board" id="0x7f020072" />

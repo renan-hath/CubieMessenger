@@ -3620,7 +3620,7 @@
 
     const-string/jumbo v2, "DETECT_EXTERNAL_IMAGE"
 
-    const/4 v3, 0x1
+    const/4 v3, 0x0
 
     invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
@@ -4426,6 +4426,8 @@
 
     .line 1285
     :cond_0
+    const/4 v2, 0x1
+
     invoke-direct {p0}, Lcom/liquable/nemo/util/Pref;->getNemoPreferences()Landroid/content/SharedPreferences;
 
     move-result-object v1

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="APNS_1">%1$s enviou uma mensagem</string>
+    <string name="APNS_1">%1$s enviou um áudio</string>
     <string name="APNS_A">%1$s enviou uma música: %2$s</string>
     <string name="APNS_AL">%1$s quer saber onde você tá.</string>
     <string name="APNS_AP">%1$s quer que você responda com uma foto</string>
@@ -71,9 +71,9 @@
     <string name="add_more_friends">Mais</string>
     <string name="add_to_friend">Adicionar %1$s como amigo</string>
     <string name="add_to_friend_success">Vocês dois são amigos agora</string>
-    <string name="address_book_deined">Você não autorizou o Cubie a acessar os Contatos. Altere isto nas Configurações do Sistema -> Privacidade -> Contatos</string>
+    <string name="address_book_deined">Você não autorizou o Cubie a acessar os Contatos. Altere isto nas Configurações do Sistema --> Privacidade --> Contatos</string>
     <string name="address_book_not_exist">Não foi possível acessar Contatos</string>
-    <string name="address_book_not_granted">Você não autorizou o Cubie a acessar os Contatos. Altere isto nas Configurações do Sistema -> Privacidade -> Contatos</string>
+    <string name="address_book_not_granted">Você não autorizou o Cubie a acessar os Contatos. Altere isto nas Configurações do Sistema --> Privacidade --> Contatos</string>
     <string name="address_book_restricted">Você tem restrição no acesso de Contatos.</string>
     <string name="address_book_setting_ios">Adicionar Amigos via Contatos</string>
     <string name="address_book_setting_title_ios">Contatos</string>
@@ -105,7 +105,7 @@
     <string name="app_store_rating_title">Classifique-nos na App Store</string>
     <string name="app_tab">Apps</string>
     <string name="apply_custom_effect_title">Escolha um frame</string>
-    <string name="article"></string>
+    <string name="article" />
     <string name="article_delete_reason_by_abuse_report">(Censurado)</string>
     <string name="article_delete_reason_by_author">pelo autor</string>
     <string name="article_delete_reason_by_board_creator">pelo dono da comunidade</string>
@@ -288,17 +288,17 @@ Atenção:
     <string name="create_forum_article_title">Criar tópico</string>
     <string name="create_forum_board_failed">Algo deu errado! Por favor, tente novamente</string>
     <string name="create_forum_board_title">Criar comunidade</string>
-    <string name="create_forum_content_failed_too_long">"Posts não podem ter mais que %1$s palavras"</string>
+    <string name="create_forum_content_failed_too_long">Posts não podem ter mais que %1$s palavras</string>
     <string name="create_forum_pic_size_invalid_ratio">A foto é muito grande.</string>
-    <string name="create_forum_too_fast">You made that too fast! Please try again later</string>
+    <string name="create_forum_too_fast">Você fez isso há muito pouco tempo. Tente novamente.</string>
     <string name="create_session_hint_desc">"Sua ID consiste em duas letras e uma série de números. As letras 'L' e 'i' geralmente são confundidas, por favor, cheque se você está digitando a letra certa."</string>
     <string name="create_session_hint_title">Important</string>
     <string name="crop_move_or_zoom_title">Mover e zoom</string>
     <string name="crop_paste_to_board">Colar</string>
     <string name="crop_share_to_instagram">Compartilhar</string>
-    <string name="cubie_head_always_on_summary">Essa opção também precisa ser marcada para poder utilizar a Cubie Tab</string>
+    <string name="cubie_head_always_on_summary">A Cubie Tab permanecerá na tela do celular mesmo se eu fechar o aplicativo</string>
     <string name="cubie_head_always_on_title">Fixar a Cubie Tab</string>
-    <string name="cubie_head_enable_summary">Usar aba fixada para poder responder mensagens direto de qualquer tela do celular</string>
+    <string name="cubie_head_enable_summary">Usar a aba do Cubie para poder responder mensagens direto de qualquer tela do celular</string>
     <string name="cubie_head_enable_title">Ativar a Cubie Tab</string>
     <string name="cubie_head_notification_title">Cubie Tab</string>
     <string name="cubie_head_remove">Ocultar</string>
@@ -324,7 +324,7 @@ Atenção:
     <string name="custom_sticker_tip">Now you can make custom stickers! Click on Custom Stickers and get creative!</string>
     <string name="custom_sticker_toggle_delete_mode">Switch to delete mode</string>
     <string name="d_sound_name">Relógio</string>
-    <string name="delete">Remove</string>
+    <string name="delete">Remover</string>
     <string name="delete_account_btn">Excluir Conta</string>
     <string name="delete_account_confirm_message">Tem certeza que deseja excluir sua conta?</string>
     <string name="delete_account_dialog_delete">Confirmar</string>
@@ -345,7 +345,9 @@ Atenção:
     <string name="delete_custom_sticker_message">Tem certeza que quer excluir?</string>
     <string name="delete_custom_sticker_tooltip">Pressione o sticker para excluir</string>
     <string name="delete_forum_article">Excluir tópico</string>
-    <string name="delete_forum_article_confirm_message">Ao excluir um tópico, você\nnão pode restaurá-lo. Você tem\ncerteza que quer excluí-lo?</string>
+    <string name="delete_forum_article_confirm_message">"Ao excluir um tópico, você
+não pode restaurá-lo. Tem
+certeza que quer excluí-lo?"</string>
     <string name="delete_forum_article_confirm_title">Excluir tópico</string>
     <string name="delete_forum_article_success">O tópico foi excluído</string>
     <string name="delete_friend_content">Remover %1$s da sua lista de amigos?</string>
@@ -358,16 +360,20 @@ Atenção:
  Em geral, você não será cobrado por esta chamada. Algumas operadoras podem cobrar dependendo do seu plano de celular."</string>
     <string name="description_input_phone_number_foot_note_ios">Cubie não vai revelar seu número de telefone a outros.</string>
     <string name="description_input_phone_number_ios">Selecione a sua região e insira seu número de telefone. Vamos enviar um código pin via SMS ao seu celular.</string>
-    <string name="description_input_phone_number_new">Você pode escolher registrar-se utilizando seu número de celular ou a sua conta do Facebook.\nPara registrar-se usando o seu número, basta clicar no botão Receber SMS que enviaremos um código Pin para você.\nSe preferir registrar-se com sua conta do Facebook, é só clicar no outro botão e acessar a sua conta por lá!</string>
+    <string name="description_input_phone_number_new">"Você pode escolher registrar-se utilizando seu número de celular ou a sua conta do Facebook.
+Para registrar-se usando o seu número, basta clicar no botão Receber SMS que enviaremos um código Pin para você.
+Se preferir registrar-se com sua conta do Facebook, é só clicar no outro botão e acessar a sua conta por lá!"</string>
     <string name="description_input_pincode_and_send_sms">"Você vai receber um SMS com um código Pin em menos de um minuto. Se o Cubie não preencher automaticamente pra você, digite-o abaixo e clique em Entrar. Se você não recebê-lo, tente voltar para a tela anterior e clicar em 'Receber SMS' novamente. Você também pode usar o recurso de '%1$s' abaixo."</string>
     <string name="description_input_pincode_ios">Você receberá um código Pin em até um minuto. Digite esse código Pin no campo abaixo. Se você não recebê-lo, volte à página anterior e insira seu número novamente.</string>
-    <string name="detect_external_image_settting_summary">É recomendado deixar essa opção desmarcada. Se marcada, sempre que eu tirar fotos ou editá-las em algum aplicativo, o Cubie me perguntará se desejo compartilhá-las</string>
+    <string name="detect_external_image_settting_summary">É recomendado deixar essa opção desmarcada. Se marcada, sempre que eu editar fotos em um aplicativo, o Cubie me perguntará se desejo compartilhá-las</string>
     <string name="detect_external_image_settting_title">Notificação Intrusiva</string>
     <string name="detect_external_image_ticker">Compartilhar essa foto no Cubie!</string>
-    <string name="detect_external_image_title">Para desabilitar essa notificação, vá em Notificações -> Notificação Intrusiva</string>
+    <string name="detect_external_image_title">Notificação Intrusiva</string>
     <string name="diagnosis_title">Diagnóstico</string>
     <string name="dialog_filter_facebook_friend_title">Nome do Amigo:</string>
-    <string name="dialog_mute_checkbox_message">Desabilitar vibração e toque ao receber mensagens desse chat.\nO celular ainda exibirá notificações. \n</string>
+    <string name="dialog_mute_checkbox_message">"Desabilitar vibração e toque ao receber mensagens desse chat.
+O celular ainda exibirá notificações. 
+"</string>
     <string name="disable_pictures_from_gallery_title">Não exibir pasta de fotos do Cubie no meu aplicativo de Galeria</string>
     <string name="done">Salvar</string>
     <string name="download_sticker_failed">Não foi possível fazer baixar os stickers</string>
@@ -419,7 +425,7 @@ Atenção:
     <string name="exclude_in_mututal_friends_title">Esconder minhas Amizades</string>
     <string name="exclude_in_recommend_friends_summary">Não me sugerir na lista Amigos sugeridos de nenhum usuário do Cubie</string>
     <string name="exclude_in_recommend_friends_title">Não me sugerir</string>
-    <string name="excluded_in_recommend_warning">"Você ativou a opção 'Não me sugerir'. Desative-a em Configurações -> Privacidade"</string>
+    <string name="excluded_in_recommend_warning">"Você ativou a opção 'Não me sugerir'. Desative-a em Configurações --> Privacidade"</string>
     <string name="export_message">Exportar histórico</string>
     <string name="export_message_sent">Mensagem enviada</string>
     <string name="export_messages_content">Exportando histórico de mensagens</string>
@@ -468,7 +474,7 @@ Atenção:
     <string name="facebook_posting_success">Compartilhado com sucesso no Facebook</string>
     <string name="faq_setting_title">FAQ do Cubie</string>
     <string name="favorite_board_now_title">Entrar</string>
-    <string name="favorite_board_reach_limit">"Você não pode entrar em mais de %1$s comunidades"</string>
+    <string name="favorite_board_reach_limit">Você não pode entrar em mais de %1$s comunidades</string>
     <string name="favorite_board_successfully">Você entrou na comunidade</string>
     <string name="favorite_board_title">Entrar / Sair</string>
     <string name="favorite_forum_tab">Forum</string>
@@ -593,11 +599,11 @@ Atenção:
     <string name="forum_article_image">Enviar uma foto</string>
     <string name="forum_article_mask_deleted">Tópico excluído</string>
     <string name="forum_article_mask_reported">O tópico foi denunciado</string>
-    <string name="forum_article_not_found_exception">"Esse tópico não existe mais"</string>
+    <string name="forum_article_not_found_exception">Esse tópico não existe mais</string>
     <string name="forum_article_placeholder">Criar</string>
     <string name="forum_article_select_picture">Enviar uma foto</string>
-    <string name="forum_article_title"></string>
-    <string name="forum_article_title_is_blank">"Você tem que escolher um título para o seu tópico."</string>
+    <string name="forum_article_title" />
+    <string name="forum_article_title_is_blank">Você tem que escolher um título para o seu tópico.</string>
     <string name="forum_board">Comunidade</string>
     <string name="forum_board_category">Categoria</string>
     <string name="forum_board_category_is_blank">Você precisa escolher uma categoria</string>
@@ -612,11 +618,11 @@ Atenção:
     <string name="forum_category_placeholder">Escolher categoria</string>
     <string name="forum_category_title">Categoria</string>
     <string name="forum_deauthorized">"Your account can't use Cubie Space yet. Please wait and try again"</string>
-    <string name="forum_favorite_is_empty_tutorial">"Procure comunidades para adicioná-las à sua lista de favoritos!"</string>
+    <string name="forum_favorite_is_empty_tutorial">Procure comunidades para adicioná-las à sua lista de favoritos!</string>
     <string name="forum_reply_digest">"%1$s respondeu o tópico '%2$s'"</string>
     <string name="forum_reply_notification_summary">Me notificar quando responderem um tópico que eu criei</string>
     <string name="forum_reply_notification_title">Notificações do Cubie Space</string>
-    <string name="forum_report_abuse_reason_title">"Por favor, explique por que você está fazendo essa denúncia."</string>
+    <string name="forum_report_abuse_reason_title">Por favor, explique por que você está fazendo essa denúncia.</string>
     <string name="forum_tutorial_intro">Esse é o Cubie Space, o fórum do aplicativo!</string>
     <string name="forum_tutorial_intro_create">Aqui você pode criar a sua comunidade!</string>
     <string name="forum_tutorial_intro_create_article">E por aqui, você cria um novo tópico!</string>
@@ -624,7 +630,7 @@ Atenção:
     <string name="forum_tutorial_intro_hot">Check out trending topics!</string>
     <string name="forum_tutorial_intro_recommend">Nessa tela irão aparecer todas as comunidades das quais você faz parte.</string>
     <string name="forum_tutorial_intro_search">E aqui você pode procurar por comunidades que sejam do seu interesse, por meio das categorias ou pesquisando por palavras-chave!</string>
-    <string name="forward">Encaminhar para outro grupo</string>
+    <string name="forward">Encaminhar para outro chat</string>
     <string name="forward_failed">Falha ao encaminhar</string>
     <string name="forward_title_ios">Avançar</string>
     <string name="free_pincode_sms_hint">Escolha se você deseja utilizar o Facebook ou o seu número de celular para registrar-se ou logar no Cubie!</string>
@@ -664,8 +670,8 @@ Atenção:
     <string name="i_sound_name">Mágica</string>
     <string name="ignore">Ignorar</string>
     <string name="illegal_chat_group_name">O assunto do grupo deve ter 1~25 caracteres.</string>
-    <string name="image_multi_select_no_selected">Choose at least one photo</string>
-    <string name="image_multi_select_title">Choose Photos</string>
+    <string name="image_multi_select_no_selected">Selecione pelo menos uma foto</string>
+    <string name="image_multi_select_title">Compartilhar fotos no Cubie</string>
     <string name="image_save_failed">Não foi possível salvar</string>
     <string name="image_save_success">Salvo</string>
     <string name="import_address_book_accept_ios">Concordo</string>
@@ -739,8 +745,8 @@ Atenção:
     <string name="last_sticker_msg">%1$s enviou um sticker</string>
     <string name="last_sync_address_book_time_ios">Última Atualização: %1$s</string>
     <string name="last_sync_contact_time">Data da última sincronização: %1$s</string>
-    <string name="last_video_msg">%1$s enviou um vídeo.</string>
-    <string name="last_voice_msg">%1$s enviou mensagem de voz</string>
+    <string name="last_video_msg">%1$s enviou um vídeo</string>
+    <string name="last_voice_msg">%1$s enviou um áudio</string>
     <string name="last_youtube_msg">%1$s enviou um vídeo do YouTube</string>
     <string name="later">Agora não</string>
     <string name="launch_apple_map_direction">Abrir navegação</string>
@@ -805,9 +811,9 @@ Atenção:
     <string name="msg_missed_call_with_time">Chamada perdida às %1$s</string>
     <string name="msg_remove_chat_group_member">%1$s removed %2$s</string>
     <string name="msg_remove_chat_group_member_with_group_name">"%1$s removed %2$s from '%3$s'"</string>
-    <string name="msg_unknown">%1$s enviou uma mensagem</string>
-    <string name="msg_update_chat_group_icon">%1$s changed the group photo</string>
-    <string name="msg_update_chat_group_name">%1$s mudou o assunto do grupo para %2$s</string>
+    <string name="msg_unknown">%1$s enviou um áudio</string>
+    <string name="msg_update_chat_group_icon">%1$s mudou a foto do grupo</string>
+    <string name="msg_update_chat_group_name">%1$s mudou o nome do grupo para %2$s</string>
     <string name="multiple_select_gallery">Selecionar várias</string>
     <string name="music">Música</string>
     <string name="mute_chat_group">Silenciar</string>
@@ -861,7 +867,8 @@ Atenção:
     <string name="notification_time_setting_title">Notificação por Horário</string>
     <string name="notification_time_start_summary">%1$s</string>
     <string name="notification_time_start_title">Início</string>
-    <string name="notify_favorite_board_before_post">Você precisa entrar na comunidade\npara poder criar tópicos e postar.</string>
+    <string name="notify_favorite_board_before_post">"Você precisa entrar na comunidade
+para poder criar tópicos e postar."</string>
     <string name="notify_new_arrival_at_bottom_summary">Se eu já estiver no fim da conversa, não exibir notificações de novas mensagens do chat aberto</string>
     <string name="notify_new_arrival_at_bottom_title">Notificação Inteligente</string>
     <string name="notify_new_friend_summary">E %1$s outro(s) amigo(s)</string>
@@ -912,7 +919,7 @@ Atenção:
     <string name="popup_copy_address">Copiar Endereço</string>
     <string name="popup_delete">Excluir</string>
     <string name="popup_delete_message_and_file">Delete message and photo</string>
-    <string name="popup_edit_photo">Add photo effects</string>
+    <string name="popup_edit_photo">Editar foto</string>
     <string name="popup_forward">Encaminhar</string>
     <string name="popup_invite_friend_message">The more friends you have, the more fun it is! Invite some already!</string>
     <string name="popup_invite_friend_title">Invite friends</string>
@@ -1021,7 +1028,8 @@ Atenção:
     <string name="restore_description">Restaurar itens comprados anteriormente. Após a restauração, retorne à Loja de Sticker para confirmar e baixar os stickers.</string>
     <string name="restore_title">Restaurar Compras</string>
     <string name="restore_window">Restore</string>
-    <string name="restoring_data">Restaurando os dados\nda sua conta</string>
+    <string name="restoring_data">"Restaurando os dados
+da sua conta"</string>
     <string name="robot_group_name">Cubie Bot</string>
     <string name="robot_group_welcome_message_1">Ah, oi! Bem vindo ao Cubie! ^-^</string>
     <string name="robot_group_welcome_message_2">Você pode selecionar fotos da sua galeria, ou usar a câmera para fotografá-las e enviar aos seus amigos. Nas Configurações, você pode escolher se você quer usar a câmera do Cubie ou a do aplicativo padrão do seu celular mesmo. Também tem outras opções pra você escolher, olha lá! :D</string>
@@ -1065,7 +1073,7 @@ Atenção:
     <string name="send_direct_message_to_twitter_friend_dialog_message">Enviar mensagem com sua ID do Cubie a %1$s?</string>
     <string name="send_direct_message_to_twitter_friend_dialog_title">Convidar</string>
     <string name="send_friend_request">Enviar pedido de amizade?</string>
-    <string name="send_group_message_fail_notification">"Uma mensagem não foi enviada em %1$s"</string>
+    <string name="send_group_message_fail_notification">Uma mensagem não foi enviada em %1$s</string>
     <string name="send_invitation_complete">Pedido enviado</string>
     <string name="send_message_fail_multiple_groups_notification">Mensagens em %1$s e %2$s outros grupos não foram enviadas</string>
     <string name="send_one_to_one_message_fail_notification">Sua mensagem para %1$s não foi enviada</string>
@@ -1081,7 +1089,7 @@ Atenção:
     <string name="share_app_by_email">Via e-mail</string>
     <string name="share_app_by_sms">Via SMS</string>
     <string name="share_app_with_facebook_friend_content">Instala o Cubie também e me adiciona lá!</string>
-    <string name="share_app_with_facebook_friend_message">"Acabei de instalar um messenger novo no celular, o Cubie. Ele é muito melhor, conversa comigo por lá! ^-^"</string>
+    <string name="share_app_with_facebook_friend_message">Acabei de instalar um messenger novo no celular, o Cubie. Ele é muito melhor, conversa comigo por lá! ^-^</string>
     <string name="share_app_with_facebook_friend_success">Compartilhado com sucesso no Facebook</string>
     <string name="share_app_with_friend">Indique a um amigo</string>
     <string name="share_app_with_friend_by">Selecionar</string>
@@ -1090,7 +1098,7 @@ Atenção:
     <string name="share_app_with_friend_sms_success">Enviando</string>
     <string name="share_app_with_friend_subject">Junte-se ao Cubie!</string>
     <string name="share_app_with_twitter">Compartilhar no Twitter</string>
-    <string name="share_app_with_twitter_description">"The cake is a lie."</string>
+    <string name="share_app_with_twitter_description">The cake is a lie.</string>
     <string name="share_app_with_twitter_dialog_message">Publicar um tweet pra contar sobre o Cubie?</string>
     <string name="share_file">Share files</string>
     <string name="share_from_cubie_space">Tópico:</string>
@@ -1115,8 +1123,8 @@ Atenção:
     <string name="skip_not_image">"Pular '%1$s' arquivos não gráficos."</string>
     <string name="sms_invitation_sent_failed">Falha ao enviar convite</string>
     <string name="sms_invitation_sent_successfully">Convite enviado</string>
-    <string name="space_already_friend">This user is already your friend.</string>
-    <string name="space_how_to_invite_desc">This user has not turn on friend invitation. You can go to Settings -> Privacy Settings to enable friend invitation.</string>
+    <string name="space_already_friend">O usuário está adicionado</string>
+    <string name="space_how_to_invite_desc">O usuário não habilitou os pedidos de amizade no Cubie Space</string>
     <string name="space_how_to_invite_desc_ios">This user has not turn on friend invitation. You can go to Settings -> Privacy Settings to enable friend invitation.</string>
     <string name="space_how_to_invite_title">About friend invitation</string>
     <string name="space_terms_of_service">Termos de serviço - Cubie Space</string>
@@ -1222,8 +1230,9 @@ Atenção:
     <string name="voice_msg_setting_summary_earpiece">Selecionado: Receptor</string>
     <string name="voice_msg_setting_summary_speaker">Selecionado: Auto-falante</string>
     <string name="voice_msg_setting_title">Saída de som de áudios recebidos</string>
-    <string name="voice_msg_too_short">A mensagem de voz é muito curta</string>
-    <string name="voice_play_tip">Você pode mudar a saída de som\ndo áudio em Configurações → Chat</string>
+    <string name="voice_msg_too_short">O áudio gravado é muito curto</string>
+    <string name="voice_play_tip">"Você pode mudar a saída de som
+do áudio em Configurações → Chat"</string>
     <string name="voip_answer_btn">Aceitar</string>
     <string name="voip_answering">Aceitando</string>
     <string name="voip_call_back_btn">✆ Ligar de volta</string>

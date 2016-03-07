@@ -561,6 +561,8 @@
 
 .field public static final background_v3:I = 0x7f020110
 
+.field public static final background_v4:I = 0x7f020595
+
 .field public static final bg_actionbar_edittext:I = 0x7f020111
 
 .field public static final bg_actionbar_item:I = 0x7f020112
@@ -1203,6 +1205,12 @@
 
 .field public static final classify_emoji_line_tab_pressed:I = 0x7f020251
 
+.field public static final classify_emoji_msn_tab:I = 0x7f020597
+
+.field public static final classify_emoji_msn_tab_normal:I = 0x7f020598
+
+.field public static final classify_emoji_msn_tab_pressed:I = 0x7f020599
+
 .field public static final classify_emoji_normal_tab_normal:I = 0x7f020252
 
 .field public static final classify_emoji_normal_tab_pressed:I = 0x7f020253
@@ -1628,6 +1636,186 @@
 .field public static final emoji_ignore:I = 0x7f020324
 
 .field public static final emoji_im1:I = 0x7f020325
+
+.field public static final emoji_k1:I = 0x7f02059a
+
+.field public static final emoji_k10:I = 0x7f02059b
+
+.field public static final emoji_k11:I = 0x7f02059c
+
+.field public static final emoji_k12:I = 0x7f02059d
+
+.field public static final emoji_k13:I = 0x7f02059e
+
+.field public static final emoji_k14:I = 0x7f02059f
+
+.field public static final emoji_k15:I = 0x7f0205a0
+
+.field public static final emoji_k16:I = 0x7f0205a1
+
+.field public static final emoji_k17:I = 0x7f0205a2
+
+.field public static final emoji_k18:I = 0x7f0205a3
+
+.field public static final emoji_k19:I = 0x7f0205a4
+
+.field public static final emoji_k2:I = 0x7f0205a5
+
+.field public static final emoji_k20:I = 0x7f0205a6
+
+.field public static final emoji_k21:I = 0x7f0205a7
+
+.field public static final emoji_k22:I = 0x7f0205a8
+
+.field public static final emoji_k23:I = 0x7f0205a9
+
+.field public static final emoji_k24:I = 0x7f0205aa
+
+.field public static final emoji_k25:I = 0x7f0205ab
+
+.field public static final emoji_k26:I = 0x7f0205ac
+
+.field public static final emoji_k27:I = 0x7f0205ad
+
+.field public static final emoji_k28:I = 0x7f0205ae
+
+.field public static final emoji_k29:I = 0x7f0205af
+
+.field public static final emoji_k3:I = 0x7f0205b0
+
+.field public static final emoji_k30:I = 0x7f0205b1
+
+.field public static final emoji_k31:I = 0x7f0205b2
+
+.field public static final emoji_k32:I = 0x7f0205b3
+
+.field public static final emoji_k33:I = 0x7f0205b4
+
+.field public static final emoji_k34:I = 0x7f0205b5
+
+.field public static final emoji_k35:I = 0x7f0205b6
+
+.field public static final emoji_k36:I = 0x7f0205b7
+
+.field public static final emoji_k37:I = 0x7f0205b8
+
+.field public static final emoji_k38:I = 0x7f0205b9
+
+.field public static final emoji_k39:I = 0x7f0205ba
+
+.field public static final emoji_k4:I = 0x7f0205bb
+
+.field public static final emoji_k40:I = 0x7f0205bc
+
+.field public static final emoji_k41:I = 0x7f0205bd
+
+.field public static final emoji_k42:I = 0x7f0205be
+
+.field public static final emoji_k43:I = 0x7f0205bf
+
+.field public static final emoji_k44:I = 0x7f0205c0
+
+.field public static final emoji_k45:I = 0x7f0205c1
+
+.field public static final emoji_k46:I = 0x7f0205c2
+
+.field public static final emoji_k47:I = 0x7f0205c3
+
+.field public static final emoji_k48:I = 0x7f0205c4
+
+.field public static final emoji_k49:I = 0x7f0205c5
+
+.field public static final emoji_k5:I = 0x7f0205c6
+
+.field public static final emoji_k50:I = 0x7f0205c7
+
+.field public static final emoji_k51:I = 0x7f0205c8
+
+.field public static final emoji_k52:I = 0x7f0205c9
+
+.field public static final emoji_k53:I = 0x7f0205ca
+
+.field public static final emoji_k54:I = 0x7f0205cb
+
+.field public static final emoji_k55:I = 0x7f0205cc
+
+.field public static final emoji_k56:I = 0x7f0205cd
+
+.field public static final emoji_k57:I = 0x7f0205ce
+
+.field public static final emoji_k58:I = 0x7f0205cf
+
+.field public static final emoji_k59:I = 0x7f0205d0
+
+.field public static final emoji_k6:I = 0x7f0205d1
+
+.field public static final emoji_k60:I = 0x7f0205d2
+
+.field public static final emoji_k61:I = 0x7f0205d3
+
+.field public static final emoji_k62:I = 0x7f0205d4
+
+.field public static final emoji_k63:I = 0x7f0205d5
+
+.field public static final emoji_k64:I = 0x7f0205d6
+
+.field public static final emoji_k65:I = 0x7f0205d7
+
+.field public static final emoji_k66:I = 0x7f0205d8
+
+.field public static final emoji_k67:I = 0x7f0205d9
+
+.field public static final emoji_k68:I = 0x7f0205da
+
+.field public static final emoji_k69:I = 0x7f0205db
+
+.field public static final emoji_k7:I = 0x7f0205dc
+
+.field public static final emoji_k70:I = 0x7f0205dd
+
+.field public static final emoji_k71:I = 0x7f0205de
+
+.field public static final emoji_k72:I = 0x7f0205df
+
+.field public static final emoji_k73:I = 0x7f0205e0
+
+.field public static final emoji_k74:I = 0x7f0205e1
+
+.field public static final emoji_k75:I = 0x7f0205e2
+
+.field public static final emoji_k76:I = 0x7f0205e3
+
+.field public static final emoji_k77:I = 0x7f0205e4
+
+.field public static final emoji_k78:I = 0x7f0205e5
+
+.field public static final emoji_k79:I = 0x7f0205e6
+
+.field public static final emoji_k8:I = 0x7f0205e7
+
+.field public static final emoji_k80:I = 0x7f0205e8
+
+.field public static final emoji_k81:I = 0x7f0205e9
+
+.field public static final emoji_k82:I = 0x7f0205ea
+
+.field public static final emoji_k83:I = 0x7f0205eb
+
+.field public static final emoji_k84:I = 0x7f0205ec
+
+.field public static final emoji_k85:I = 0x7f0205ed
+
+.field public static final emoji_k86:I = 0x7f0205ee
+
+.field public static final emoji_k87:I = 0x7f0205ef
+
+.field public static final emoji_k88:I = 0x7f0205f0
+
+.field public static final emoji_k89:I = 0x7f0205f1
+
+.field public static final emoji_k9:I = 0x7f0205f2
+
+.field public static final emoji_k90:I = 0x7f0205f3
 
 .field public static final emoji_kiss:I = 0x7f020326
 
@@ -2870,6 +3058,8 @@
 .field public static final wallpaper_53:I = 0x7f020591
 
 .field public static final wallpaper_54:I = 0x7f020592
+
+.field public static final wallpaper_55:I = 0x7f020596
 
 .field public static final youtube_player_shadow:I = 0x7f020593
 

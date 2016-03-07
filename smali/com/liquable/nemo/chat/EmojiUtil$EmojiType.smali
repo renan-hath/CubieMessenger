@@ -30,12 +30,16 @@
 
 .field public static final enum LINE:Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
 
+.field public static final enum MSN:Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
+
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 4
+    .locals 5
 
     .prologue
+    const/4 v4, 0x2
+
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -51,14 +55,22 @@
 
     new-instance v0, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
 
-    const-string/jumbo v1, "LINE"
+    const-string/jumbo v1, "MSN"
 
     invoke-direct {v0, v1, v3}, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;->MSN:Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
+
+    new-instance v0, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
+
+    const-string/jumbo v1, "LINE"
+
+    invoke-direct {v0, v1, v4}, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;-><init>(Ljava/lang/String;I)V
 
     sput-object v0, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;->LINE:Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
 
     .line 31
-    const/4 v0, 0x2
+    const/4 v0, 0x3
 
     new-array v0, v0, [Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
 
@@ -66,9 +78,13 @@
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;->LINE:Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
+    sget-object v1, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;->MSN:Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
 
     aput-object v1, v0, v3
+
+    sget-object v1, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;->LINE:Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
+
+    aput-object v1, v0, v4
 
     sput-object v0, Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;->$VALUES:[Lcom/liquable/nemo/chat/EmojiUtil$EmojiType;
 

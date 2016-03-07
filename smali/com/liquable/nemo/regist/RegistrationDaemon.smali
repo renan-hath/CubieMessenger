@@ -187,7 +187,7 @@
     .line 357
     sget-object v5, Lcom/liquable/nemo/NemoManagers;->pref:Lcom/liquable/nemo/util/Pref;
 
-    sget-object v6, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_17:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v6, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_55:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     invoke-virtual {v6}, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->getCode()Ljava/lang/String;
 
@@ -202,7 +202,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f02010f
+    const v6, 0x7f020595
 
     invoke-static {v5, v6}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -210,7 +210,7 @@
 
     .line 361
     .local v4, "resource":Landroid/graphics/Bitmap;
-    sget-object v5, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_17:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v5, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_55:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     invoke-virtual {v5}, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->getLocalKeyPath()Lcom/liquable/nemo/storage/LocalKeyPath;
 

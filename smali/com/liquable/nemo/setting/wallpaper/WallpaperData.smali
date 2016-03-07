@@ -107,6 +107,8 @@
 
 .field public static final enum WALLPAPER_54:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
+.field public static final enum WALLPAPER_55:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+
 
 # instance fields
 .field private resourceId:I
@@ -141,13 +143,13 @@
     .line 15
     new-instance v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
-    const-string/jumbo v1, "WALLPAPER_17"
+    const-string/jumbo v1, "WALLPAPER_55"
 
-    const v2, 0x7f020577
+    const v2, 0x7f020596
 
     invoke-direct {v0, v1, v5, v2}, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_17:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sput-object v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_55:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     .line 16
     new-instance v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
@@ -351,12 +353,25 @@
 
     sput-object v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_16:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
+    .line 59
+    new-instance v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+
+    const-string/jumbo v1, "WALLPAPER_17"
+
+    const/16 v2, 0x12
+
+    const v3, 0x7f020577
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;-><init>(Ljava/lang/String;II)V
+
+    sput-object v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_17:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+
     .line 32
     new-instance v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     const-string/jumbo v1, "WALLPAPER_18"
 
-    const/16 v2, 0x12
+    const/16 v2, 0x13
 
     const v3, 0x7f020578
 
@@ -369,7 +384,7 @@
 
     const-string/jumbo v1, "WALLPAPER_19"
 
-    const/16 v2, 0x13
+    const/16 v2, 0x14
 
     const v3, 0x7f020579
 
@@ -382,7 +397,7 @@
 
     const-string/jumbo v1, "WALLPAPER_20"
 
-    const/16 v2, 0x14
+    const/16 v2, 0x15
 
     const v3, 0x7f02057a
 
@@ -395,7 +410,7 @@
 
     const-string/jumbo v1, "WALLPAPER_21"
 
-    const/16 v2, 0x15
+    const/16 v2, 0x16
 
     const v3, 0x7f02057b
 
@@ -408,7 +423,7 @@
 
     const-string/jumbo v1, "WALLPAPER_22"
 
-    const/16 v2, 0x16
+    const/16 v2, 0x17
 
     const v3, 0x7f02057c
 
@@ -421,7 +436,7 @@
 
     const-string/jumbo v1, "WALLPAPER_23"
 
-    const/16 v2, 0x17
+    const/16 v2, 0x18
 
     const v3, 0x7f02057d
 
@@ -434,7 +449,7 @@
 
     const-string/jumbo v1, "WALLPAPER_24"
 
-    const/16 v2, 0x18
+    const/16 v2, 0x19
 
     const v3, 0x7f02057e
 
@@ -447,7 +462,7 @@
 
     const-string/jumbo v1, "WALLPAPER_25"
 
-    const/16 v2, 0x19
+    const/16 v2, 0x1a
 
     const v3, 0x7f02057f
 
@@ -460,7 +475,7 @@
 
     const-string/jumbo v1, "WALLPAPER_26"
 
-    const/16 v2, 0x1a
+    const/16 v2, 0x1b
 
     const v3, 0x7f020580
 
@@ -473,7 +488,7 @@
 
     const-string/jumbo v1, "WALLPAPER_27"
 
-    const/16 v2, 0x1b
+    const/16 v2, 0x1c
 
     const v3, 0x7f020581
 
@@ -486,7 +501,7 @@
 
     const-string/jumbo v1, "WALLPAPER_28"
 
-    const/16 v2, 0x1c
+    const/16 v2, 0x1d
 
     const v3, 0x7f020582
 
@@ -499,7 +514,7 @@
 
     const-string/jumbo v1, "WALLPAPER_30"
 
-    const/16 v2, 0x1d
+    const/16 v2, 0x1e
 
     const v3, 0x7f020583
 
@@ -512,7 +527,7 @@
 
     const-string/jumbo v1, "WALLPAPER_31"
 
-    const/16 v2, 0x1e
+    const/16 v2, 0x1f
 
     const v3, 0x7f020584
 
@@ -525,7 +540,7 @@
 
     const-string/jumbo v1, "WALLPAPER_32"
 
-    const/16 v2, 0x1f
+    const/16 v2, 0x20
 
     const v3, 0x7f020585
 
@@ -538,7 +553,7 @@
 
     const-string/jumbo v1, "WALLPAPER_33"
 
-    const/16 v2, 0x20
+    const/16 v2, 0x21
 
     const v3, 0x7f020586
 
@@ -551,7 +566,7 @@
 
     const-string/jumbo v1, "WALLPAPER_34"
 
-    const/16 v2, 0x21
+    const/16 v2, 0x22
 
     const v3, 0x7f020587
 
@@ -564,7 +579,7 @@
 
     const-string/jumbo v1, "WALLPAPER_39"
 
-    const/16 v2, 0x22
+    const/16 v2, 0x23
 
     const v3, 0x7f020588
 
@@ -577,7 +592,7 @@
 
     const-string/jumbo v1, "WALLPAPER_40"
 
-    const/16 v2, 0x23
+    const/16 v2, 0x24
 
     const v3, 0x7f020589
 
@@ -590,7 +605,7 @@
 
     const-string/jumbo v1, "WALLPAPER_41"
 
-    const/16 v2, 0x24
+    const/16 v2, 0x25
 
     const v3, 0x7f02058a
 
@@ -603,7 +618,7 @@
 
     const-string/jumbo v1, "WALLPAPER_42"
 
-    const/16 v2, 0x25
+    const/16 v2, 0x26
 
     const v3, 0x7f02058b
 
@@ -616,7 +631,7 @@
 
     const-string/jumbo v1, "WALLPAPER_45"
 
-    const/16 v2, 0x26
+    const/16 v2, 0x27
 
     const v3, 0x7f02058c
 
@@ -629,7 +644,7 @@
 
     const-string/jumbo v1, "WALLPAPER_46"
 
-    const/16 v2, 0x27
+    const/16 v2, 0x28
 
     const v3, 0x7f02058d
 
@@ -642,7 +657,7 @@
 
     const-string/jumbo v1, "WALLPAPER_48"
 
-    const/16 v2, 0x28
+    const/16 v2, 0x29
 
     const v3, 0x7f02058e
 
@@ -655,7 +670,7 @@
 
     const-string/jumbo v1, "WALLPAPER_49"
 
-    const/16 v2, 0x29
+    const/16 v2, 0x2a
 
     const v3, 0x7f02058f
 
@@ -668,7 +683,7 @@
 
     const-string/jumbo v1, "WALLPAPER_52"
 
-    const/16 v2, 0x2a
+    const/16 v2, 0x2b
 
     const v3, 0x7f020590
 
@@ -681,7 +696,7 @@
 
     const-string/jumbo v1, "WALLPAPER_53"
 
-    const/16 v2, 0x2b
+    const/16 v2, 0x2c
 
     const v3, 0x7f020591
 
@@ -694,7 +709,7 @@
 
     const-string/jumbo v1, "WALLPAPER_54"
 
-    const/16 v2, 0x2c
+    const/16 v2, 0x2d
 
     const v3, 0x7f020592
 
@@ -703,7 +718,7 @@
     sput-object v0, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_54:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     .line 12
-    const/16 v0, 0x2d
+    const/16 v0, 0x2e
 
     new-array v0, v0, [Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
@@ -711,7 +726,7 @@
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_17:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v1, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_55:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v1, v0, v5
 
@@ -807,161 +822,167 @@
 
     const/16 v1, 0x12
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_18:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_17:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x13
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_19:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_18:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_20:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_19:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_21:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_20:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_22:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_21:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_23:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_22:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_24:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_23:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_25:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_24:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_26:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_25:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_27:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_26:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1c
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_28:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_27:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1d
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_30:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_28:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1e
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_31:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_30:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1f
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_32:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_31:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x20
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_33:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_32:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x21
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_34:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_33:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x22
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_39:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_34:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x23
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_40:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_39:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x24
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_41:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_40:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x25
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_42:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_41:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x26
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_45:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_42:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x27
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_46:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_45:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x28
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_48:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_46:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x29
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_49:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_48:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2a
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_52:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_49:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2b
 
-    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_53:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_52:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2c
+
+    sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_53:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x2d
 
     sget-object v2, Lcom/liquable/nemo/setting/wallpaper/WallpaperData;->WALLPAPER_54:Lcom/liquable/nemo/setting/wallpaper/WallpaperData;
 
