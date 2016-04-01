@@ -6,18 +6,20 @@
 * YouTube fix
 * Cubie Lite released
 * Removed articles are hidden (Space)
+* MSN emoticons
+* ASK feature
 
 # **In progress** % #
 
 * Private News Feed
-* MSN Emoticons
 
 ### Wonderland ∞ ###
 
 * New Sticker Packages
-* ASK Messages (start from btn_chat_action_icon_ask in MediaWidget)
 * GIF Support
 * File transfer beyond audio (file_msg / Music transfer)
+* VideoRecording feature
+* Old Gallery feature
 * Cubie Audio Player in app background
 * Aviary Editor 5.0 Support
 
