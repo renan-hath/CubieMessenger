@@ -4,6 +4,6 @@
     <ImageView android:layout_gravity="bottom|center|left" android:id="@id/askImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_ask_msg_other" />
     <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <TextView android:textSize="@dimen/msg_text_size" android:textColor="@color/msg_text_view_color" android:id="@id/askMessageText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/ask_picture_message_title" android:singleLine="false" />
-        <Button android:gravity="center" android:layout_gravity="bottom" android:id="@id/askButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ask_picture_message_button" style="@style/NemoPositiveButton" />
+        <Button android:gravity="center" android:layout_gravity="bottom" android:id="@id/askButton" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/ask_picture_message_button" style="@style/NemoPositiveButton" />
     </LinearLayout>
 </LinearLayout>

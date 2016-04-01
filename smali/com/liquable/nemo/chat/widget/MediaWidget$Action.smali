@@ -26,6 +26,8 @@
 # static fields
 .field private static final synthetic $VALUES:[Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
+.field public static final enum ASK:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
 .field public static final enum CAMERA:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
 .field public static final enum GALLERY:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
@@ -53,7 +55,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 9
+    .locals 10
 
     .prologue
     const/4 v8, 0x4
@@ -102,31 +104,44 @@
     .line 31
     new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
-    const-string/jumbo v1, "YOUTUBE"
-
-    const v2, 0x7f0201af
-
-    invoke-direct {v0, v1, v7, v2, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
-
-    sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->YOUTUBE:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
-
-    .line 32
-    new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
-
     const-string/jumbo v1, "VOICE"
 
     const v2, 0x7f0201ad
 
-    invoke-direct {v0, v1, v8, v2, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
+    invoke-direct {v0, v1, v7, v2, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
 
     sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VOICE:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    .line 32
+    new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    const-string/jumbo v1, "ASK"
+
+    const v2, 0x7f0205f4
+
+    invoke-direct {v0, v1, v8, v2, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
+
+    sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->ASK:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     .line 33
     new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
-    const-string/jumbo v1, "VOIP"
+    const-string/jumbo v1, "YOUTUBE"
 
     const/4 v2, 0x5
+
+    const v3, 0x7f0201af
+
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
+
+    sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->YOUTUBE:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    .line 34
+    new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    const-string/jumbo v1, "VOIP"
+
+    const/4 v2, 0x6
 
     const v3, 0x7f0201ae
 
@@ -134,38 +149,12 @@
 
     sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VOIP:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
-    .line 34
-    new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
-
-    const-string/jumbo v1, "LOCATION"
-
-    const/4 v2, 0x6
-
-    const v3, 0x7f0201a9
-
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
-
-    sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->LOCATION:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
-
     .line 35
-    new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
-
-    const-string/jumbo v1, "VIDEO"
-
-    const/4 v2, 0x7
-
-    const v3, 0x7f0201ac
-
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
-
-    sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VIDEO:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
-
-    .line 36
     new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     const-string/jumbo v1, "MUSIC"
 
-    const/16 v2, 0x8
+    const/4 v2, 0x7
 
     const v3, 0x7f0201aa
 
@@ -173,8 +162,34 @@
 
     sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->MUSIC:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
+    .line 36
+    new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    const-string/jumbo v1, "VIDEO"
+
+    const/16 v2, 0x8
+
+    const v3, 0x7f0201ac
+
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
+
+    sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VIDEO:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    .line 37
+    new-instance v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    const-string/jumbo v1, "LOCATION"
+
+    const/16 v2, 0x9
+
+    const v3, 0x7f0201a9
+
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;-><init>(Ljava/lang/String;IIZ)V
+
+    sput-object v0, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->LOCATION:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
     .line 27
-    const/16 v0, 0x9
+    const/16 v0, 0xa
 
     new-array v0, v0, [Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
@@ -190,35 +205,41 @@
 
     aput-object v1, v0, v6
 
-    sget-object v1, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->YOUTUBE:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+    sget-object v1, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VOICE:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     aput-object v1, v0, v7
 
-    sget-object v1, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VOICE:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+    sget-object v1, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->ASK:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x5
 
-    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VOIP:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->YOUTUBE:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->LOCATION:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VOIP:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VIDEO:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->MUSIC:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->MUSIC:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->VIDEO:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    sget-object v2, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->LOCATION:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
 
     aput-object v2, v0, v1
 

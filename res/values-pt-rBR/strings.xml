@@ -37,6 +37,7 @@
     <string name="about_forum_board">Sobre</string>
     <string name="about_new_friend">Sobre %1$s</string>
     <string name="about_title">Sobre o Cubie</string>
+    <string name="abs__activity_chooser_view_see_all">Mais</string>
     <string name="accept">Aceitar</string>
     <string name="accept_friend_request">Aceitar o pedido de amizade?</string>
     <string name="account_already_blocked">O usuário está bloqueado</string>
@@ -127,9 +128,9 @@
     <string name="ask_location_message_title">Diz aí!</string>
     <string name="ask_message_title">Pedir</string>
     <string name="ask_picture_message_button">Câmera</string>
-    <string name="ask_picture_message_msg">Seja legalzaum!</string>
-    <string name="ask_picture_message_text">^-^</string>
-    <string name="ask_picture_message_title">=D</string>
+    <string name="ask_picture_message_msg" />
+    <string name="ask_picture_message_text">Chamar atenção</string>
+    <string name="ask_picture_message_title">acabou de chamar a sua atenção.</string>
     <string name="ask_sheet_title">Enviar mensagem a %1$s</string>
     <string name="audio_player_title">Reprodutor de Música</string>
     <string name="authentication_login_error">Falha de login, verifique seu número de celular de novo</string>
@@ -602,7 +603,7 @@ O celular ainda exibirá notificações.
     <string name="forum_article_not_found_exception">Esse tópico não existe mais</string>
     <string name="forum_article_placeholder">Criar</string>
     <string name="forum_article_select_picture">Enviar uma foto</string>
-    <string name="forum_article_title" />
+    <string name="forum_article_title">Título</string>
     <string name="forum_article_title_is_blank">Você tem que escolher um título para o seu tópico.</string>
     <string name="forum_board">Comunidade</string>
     <string name="forum_board_category">Categoria</string>
@@ -643,7 +644,7 @@ O celular ainda exibirá notificações.
     <string name="friend_list_help">"Vá para a guia 'Adicionar ' para adicionar ou convidar amigos no Cubie. 
  Ou ative 'Sincronizar contatos' para importar amigos de seus Contatos que já estão registrados no Cubie."</string>
     <string name="friend_privacy_title">Amizade</string>
-    <string name="friend_profile_title">Perfil do Amigo</string>
+    <string name="friend_profile_title">Perfil</string>
     <string name="friends">Amigos</string>
     <string name="friends_to_invite">Convidar Contatos</string>
     <string name="friendstate_friend">Amigo</string>
@@ -729,7 +730,7 @@ O celular ainda exibirá notificações.
     <string name="k_sound_name">Rouxinol</string>
     <string name="l_sound_name">Coruja curto</string>
     <string name="last_ask_location_msg">%1$s quer saber onde você tá.</string>
-    <string name="last_ask_picture_msg">Pedido de foto %1$s</string>
+    <string name="last_ask_picture_msg">%1$s chamou a atenção</string>
     <string name="last_audio_msg">%1$s enviou uma música</string>
     <string name="last_backup_time">Data do último backup: %1$s</string>
     <string name="last_custom_sticker_msg">%1$s enviou um sticker</string>
@@ -1292,4 +1293,5 @@ do áudio em Configurações → Chat"</string>
     <string name="youtube_tab_popular">Popular</string>
     <string name="youtube_tab_sports">Esportes</string>
     <string name="youtube_view_count_title">Visualizado %1$s vezes</string>
+    <string name="ask_picture_message_title_self">Você acabou de chamar a atenção.</string>
 </resources>

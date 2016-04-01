@@ -332,6 +332,51 @@
     invoke-static {v0, v1}, Lcom/liquable/nemo/map/LocationHelper;->intentLocationPicker(Landroid/content/Context;I)V
 
     goto/16 :goto_0
+	
+    .line 860
+    :pswitch_9
+    iget-object v0, p0, Lcom/liquable/nemo/chat/ChattingActivity$12;->this$0:Lcom/liquable/nemo/chat/ChattingActivity;
+
+    invoke-static {v0}, Lcom/liquable/nemo/widget/CustomAlertDialogBuilder;->create(Landroid/content/Context;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    const v1, 0x7f0d008f
+
+    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    const v1, 0x7f0d008e
+
+    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    const v1, 0x7f0d00c5
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    const v1, 0x7f0d03b3
+
+    new-instance v2, Lcom/liquable/nemo/chat/ChattingActivity$12$1;
+
+    invoke-direct {v2, p0}, Lcom/liquable/nemo/chat/ChattingActivity$12$1;-><init>(Lcom/liquable/nemo/chat/ChattingActivity$12;)V
+
+    invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
+
+    goto/16 :goto_0
+
+    .line 809
+    nop
 
     .line 791
     :pswitch_data_0
@@ -345,5 +390,6 @@
         :pswitch_6
         :pswitch_7
         :pswitch_8
+        :pswitch_9
     .end packed-switch
 .end method
