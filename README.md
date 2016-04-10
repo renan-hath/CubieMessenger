@@ -7,11 +7,10 @@
 * Cubie Lite released
 * Removed articles are hidden (Space)
 * MSN emoticons
-* ASK feature
+* Nudge feature
+* Private News Feed
 
 # **In progress** % #
-
-* Private News Feed
 
 ### Wonderland ∞ ###
 
