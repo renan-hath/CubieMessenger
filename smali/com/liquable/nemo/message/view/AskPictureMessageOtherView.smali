@@ -16,7 +16,7 @@
 
     .prologue
     .line 21
-    const v0, 0x7f0300fc
+    const v0, 0x7f030179
 
     invoke-direct {p0, p1, v0, p2, p3}, Lcom/liquable/nemo/message/view/AbstractMessageOtherView;-><init>(Landroid/content/Context;ILcom/liquable/nemo/util/ImageLoader;Z)V
 

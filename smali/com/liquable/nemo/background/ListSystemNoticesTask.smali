@@ -73,7 +73,7 @@
 
     .line 36
     .local v2, "h":I
-    const/16 v5, 0x8
+    const/16 v5, 0x0
 
     if-ge v2, v5, :cond_0
 

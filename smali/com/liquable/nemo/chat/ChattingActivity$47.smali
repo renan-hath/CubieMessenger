@@ -583,11 +583,8 @@
     const/16 v2, 0x9
 
     aput v2, v0, v1
-    :try_end_1f
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_1f .. :try_end_1f} :catch_2
-	
+
     :goto_1f
-    :try_start_20
     sget-object v0, Lcom/liquable/nemo/chat/ChattingActivity$47;->$SwitchMap$com$liquable$nemo$chat$widget$MediaWidget$Action:[I
 
     sget-object v1, Lcom/liquable/nemo/chat/widget/MediaWidget$Action;->ASK:Lcom/liquable/nemo/chat/widget/MediaWidget$Action;
@@ -599,8 +596,8 @@
     const/16 v2, 0xa
 
     aput v2, v0, v1
-    :try_end_20
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_20 .. :try_end_20} :catch_2
+    :try_end_1f
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_1f .. :try_end_1f} :catch_2
 
     .line 687
     :goto_20
@@ -614,7 +611,7 @@
 
     sput-object v0, Lcom/liquable/nemo/chat/ChattingActivity$47;->$SwitchMap$com$liquable$nemo$chat$model$ExtraFileTransferEvent:[I
 
-    :try_start_21
+    :try_start_20
     sget-object v0, Lcom/liquable/nemo/chat/ChattingActivity$47;->$SwitchMap$com$liquable$nemo$chat$model$ExtraFileTransferEvent:[I
 
     sget-object v1, Lcom/liquable/nemo/chat/model/ExtraFileTransferEvent;->COMPLETE:Lcom/liquable/nemo/chat/model/ExtraFileTransferEvent;
@@ -626,11 +623,11 @@
     const/4 v2, 0x1
 
     aput v2, v0, v1
-    :try_end_21
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_21 .. :try_end_21} :catch_1
+    :try_end_20
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_20 .. :try_end_20} :catch_1
 
     :goto_21
-    :try_start_22
+    :try_start_21
     sget-object v0, Lcom/liquable/nemo/chat/ChattingActivity$47;->$SwitchMap$com$liquable$nemo$chat$model$ExtraFileTransferEvent:[I
 
     sget-object v1, Lcom/liquable/nemo/chat/model/ExtraFileTransferEvent;->FAIL:Lcom/liquable/nemo/chat/model/ExtraFileTransferEvent;
@@ -642,8 +639,8 @@
     const/4 v2, 0x2
 
     aput v2, v0, v1
-    :try_end_22
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_22 .. :try_end_22} :catch_0
+    :try_end_21
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_21 .. :try_end_21} :catch_0
 
     :goto_22
     return-void
@@ -821,8 +818,7 @@
     move-exception v0
 
     goto/16 :goto_1
-	
-    :catch_22
+
     move-exception v0
 
     goto/16 :goto_0

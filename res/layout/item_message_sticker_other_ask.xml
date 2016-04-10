@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/viewIconContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/avatar_margin_left">
+        <include android:id="@id/senderIcon" layout="@layout/view_icon" />
+    </LinearLayout>
+    <LinearLayout android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_toRightOf="@id/viewIconContainer">
+        <RelativeLayout android:id="@id/mainLayout" android:addStatesFromChildren="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:orientation="vertical" android:id="@id/nameLayout" android:background="@drawable/bubble_background_with_pressed" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/sender_text_view_color" android:id="@id/senderName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="10" android:singleLine="true" android:drawableRight="@drawable/icon_sticker_message" android:drawablePadding="1.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bubbleLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/viewIconContainer" />
+    <include android:id="@id/createTimeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_marginBottom="0.0dip" android:layout_alignBottom="@id/bubbleLayout" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" layout="@layout/view_msg_tick_create_time" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/askImageView" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="47.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/img_ask_msg_self" android:layout_toLeftOf="@id/createTimeText" />
+</merge>

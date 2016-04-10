@@ -1038,7 +1038,6 @@
     <public type="drawable" name="camera_crop_height" id="0x7f020229" />
     <public type="drawable" name="camera_crop_width" id="0x7f02022a" />
     <public type="drawable" name="camera_focus_target" id="0x7f02022b" />
-    <public type="drawable" name="chat_action_icon_voice_secret_disabled" id="0x7f02023b" />
     <public type="drawable" name="classify_emoji_custom_sticker_tab_normal" id="0x7f020249" />
     <public type="drawable" name="classify_emoji_custom_sticker_tab_pressed" id="0x7f02024a" />
     <public type="drawable" name="date_divider_bg" id="0x7f0202a5" />
@@ -1636,6 +1635,60 @@
     <public type="drawable" name="emoji_k89" id="0x7f0205f1" />
     <public type="drawable" name="emoji_k9" id="0x7f0205f2" />
     <public type="drawable" name="emoji_k90" id="0x7f0205f3" />
+    <public type="drawable" name="emoji_k100" id="0x7f0205f7" />
+    <public type="drawable" name="emoji_k101" id="0x7f0205f8" />
+    <public type="drawable" name="emoji_k102" id="0x7f0205f9" />
+    <public type="drawable" name="emoji_k103" id="0x7f0205fa" />
+    <public type="drawable" name="emoji_k104" id="0x7f0205fb" />
+    <public type="drawable" name="emoji_k105" id="0x7f0205fc" />
+    <public type="drawable" name="emoji_k106" id="0x7f0205fd" />
+    <public type="drawable" name="emoji_k107" id="0x7f0205fe" />
+    <public type="drawable" name="emoji_k108" id="0x7f0205ff" />
+    <public type="drawable" name="emoji_k109" id="0x7f020600" />
+    <public type="drawable" name="emoji_k110" id="0x7f020601" />
+    <public type="drawable" name="emoji_k111" id="0x7f020602" />
+    <public type="drawable" name="emoji_k112" id="0x7f020603" />
+    <public type="drawable" name="emoji_k113" id="0x7f020604" />
+    <public type="drawable" name="emoji_k114" id="0x7f020605" />
+    <public type="drawable" name="emoji_k115" id="0x7f020606" />
+    <public type="drawable" name="emoji_k116" id="0x7f020607" />
+    <public type="drawable" name="emoji_k117" id="0x7f020608" />
+    <public type="drawable" name="emoji_k118" id="0x7f020609" />
+    <public type="drawable" name="emoji_k119" id="0x7f02060a" />
+    <public type="drawable" name="emoji_k120" id="0x7f02060b" />
+    <public type="drawable" name="emoji_k121" id="0x7f02060c" />
+    <public type="drawable" name="emoji_k122" id="0x7f02060d" />
+    <public type="drawable" name="emoji_k123" id="0x7f02060e" />
+    <public type="drawable" name="emoji_k124" id="0x7f02060f" />
+    <public type="drawable" name="emoji_k125" id="0x7f020610" />
+    <public type="drawable" name="emoji_k126" id="0x7f020611" />
+    <public type="drawable" name="emoji_k127" id="0x7f020612" />
+    <public type="drawable" name="emoji_k128" id="0x7f020613" />
+    <public type="drawable" name="emoji_k129" id="0x7f020614" />
+    <public type="drawable" name="emoji_k130" id="0x7f020615" />
+    <public type="drawable" name="emoji_k131" id="0x7f020616" />
+    <public type="drawable" name="emoji_k132" id="0x7f020617" />
+    <public type="drawable" name="emoji_k133" id="0x7f020618" />
+    <public type="drawable" name="emoji_k134" id="0x7f020619" />
+    <public type="drawable" name="emoji_k135" id="0x7f02061a" />
+    <public type="drawable" name="emoji_k136" id="0x7f02061b" />
+    <public type="drawable" name="emoji_k137" id="0x7f02061c" />
+    <public type="drawable" name="emoji_k138" id="0x7f02061d" />
+    <public type="drawable" name="emoji_k139" id="0x7f02061e" />
+    <public type="drawable" name="emoji_k140" id="0x7f02061f" />
+    <public type="drawable" name="emoji_k141" id="0x7f020620" />
+    <public type="drawable" name="emoji_k142" id="0x7f020621" />
+    <public type="drawable" name="emoji_k143" id="0x7f020622" />
+    <public type="drawable" name="emoji_k144" id="0x7f020623" />
+    <public type="drawable" name="emoji_k91" id="0x7f020624" />
+    <public type="drawable" name="emoji_k92" id="0x7f020625" />
+    <public type="drawable" name="emoji_k93" id="0x7f020626" />
+    <public type="drawable" name="emoji_k94" id="0x7f020627" />
+    <public type="drawable" name="emoji_k95" id="0x7f020628" />
+    <public type="drawable" name="emoji_k96" id="0x7f020629" />
+    <public type="drawable" name="emoji_k97" id="0x7f02062a" />
+    <public type="drawable" name="emoji_k98" id="0x7f02062b" />
+    <public type="drawable" name="emoji_k99" id="0x7f02062c" />
     <public type="drawable" name="action_icon_create_board" id="0x7f02006f" />
     <public type="drawable" name="action_icon_edit" id="0x7f020071" />
     <public type="drawable" name="action_icon_favorite_board" id="0x7f020072" />
@@ -1704,6 +1757,7 @@
     <public type="drawable" name="chat_action_icon_video" id="0x7f020238" />
     <public type="drawable" name="chat_action_icon_video_secret_disabled" id="0x7f020239" />
     <public type="drawable" name="chat_action_icon_voice" id="0x7f02023a" />
+    <public type="drawable" name="chat_action_icon_voice_secret_disabled" id="0x7f02023b" />
     <public type="drawable" name="chat_action_icon_voip" id="0x7f02023c" />
     <public type="drawable" name="chat_action_icon_voip_secret_disabled" id="0x7f02023d" />
     <public type="drawable" name="chat_action_icon_youtube" id="0x7f02023e" />
@@ -2261,6 +2315,7 @@
     <public type="layout" name="view_voip_quality" id="0x7f030176" />
     <public type="layout" name="view_wallpaper_row_thumbnail" id="0x7f030177" />
     <public type="layout" name="view_youtube_widget" id="0x7f030178" />
+    <public type="layout" name="item_message_sticker_other_ask" id="0x7f030179" />
     <public type="anim" name="aviary_bottobar_in_animation" id="0x7f040000" />
     <public type="anim" name="aviary_bottobar_out_animation" id="0x7f040001" />
     <public type="anim" name="aviary_iap_close_animation" id="0x7f040002" />

@@ -130,7 +130,8 @@
     <string name="ask_picture_message_button">Câmera</string>
     <string name="ask_picture_message_msg" />
     <string name="ask_picture_message_text">Chamar atenção</string>
-    <string name="ask_picture_message_title">acabou de chamar a sua atenção.</string>
+    <string name="ask_picture_message_title">"           acabou de chamar
+              a sua atenção."</string>
     <string name="ask_sheet_title">Enviar mensagem a %1$s</string>
     <string name="audio_player_title">Reprodutor de Música</string>
     <string name="authentication_login_error">Falha de login, verifique seu número de celular de novo</string>
@@ -1293,5 +1294,6 @@ do áudio em Configurações → Chat"</string>
     <string name="youtube_tab_popular">Popular</string>
     <string name="youtube_tab_sports">Esportes</string>
     <string name="youtube_view_count_title">Visualizado %1$s vezes</string>
-    <string name="ask_picture_message_title_self">Você acabou de chamar a atenção.</string>
+    <string name="ask_picture_message_title_self">"          Você acabou de
+        chamar a atenção."</string>
 </resources>
