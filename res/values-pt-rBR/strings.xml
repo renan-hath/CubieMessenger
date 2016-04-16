@@ -319,7 +319,7 @@ Atenção:
     <string name="cubie_mini_slides_title">Preview</string>
     <string name="cubie_space">Cubie Space</string>
     <string name="cubie_url">cubie.com</string>
-    <string name="custom_sticker_effect_downloading">Downloading</string>
+    <string name="custom_sticker_effect_downloading">Baixando</string>
     <string name="custom_sticker_hint_desc">Cube Lite now supports sending Custom Stickers! You can also save the stickers shared by others and add them to your own collection! Try it!</string>
     <string name="custom_sticker_hint_title">Custom Sticker</string>
     <string name="custom_sticker_not_available_in_paint">Custom sticker is currently not supported</string>
@@ -355,7 +355,7 @@ certeza que quer excluí-lo?"</string>
     <string name="delete_friend_content">Remover %1$s da sua lista de amigos?</string>
     <string name="delete_friend_success">%1$s foi removido</string>
     <string name="delete_friend_title">Remover</string>
-    <string name="delete_message">Excluir essa mensagem</string>
+    <string name="delete_message">Excluir mensagem</string>
     <string name="delete_photo">Excluir</string>
     <string name="description_caller_id">"Faça uma chamada de voz ao servidor do Cubie para verificar o seu número de telefone. Desligue logo após ouvir o tom ocupado. 
  
@@ -811,8 +811,8 @@ O celular ainda exibirá notificações.
     <string name="msg_leave_chat_group_with_group_name">"%1$s deixou o grupo '%2$s'"</string>
     <string name="msg_missed_call">Chamada perdida de %1$s</string>
     <string name="msg_missed_call_with_time">Chamada perdida às %1$s</string>
-    <string name="msg_remove_chat_group_member">%1$s removed %2$s</string>
-    <string name="msg_remove_chat_group_member_with_group_name">"%1$s removed %2$s from '%3$s'"</string>
+    <string name="msg_remove_chat_group_member">%1$s removeu %2$s</string>
+    <string name="msg_remove_chat_group_member_with_group_name">"%1$s removeu %2$s de '%3$s'"</string>
     <string name="msg_unknown">%1$s enviou um áudio</string>
     <string name="msg_update_chat_group_icon">%1$s mudou a foto do grupo</string>
     <string name="msg_update_chat_group_name">%1$s mudou o nome do grupo para %2$s</string>
@@ -933,7 +933,7 @@ para poder criar tópicos e postar."</string>
     <string name="popup_save_video">Salvar</string>
     <string name="popup_set_cover_message">"You haven't chosen a cover photo, want to do it now?"</string>
     <string name="popup_share_to_facebook">Compartilhar no Facebook</string>
-    <string name="popup_share_to_other_app">Compartilhar para outros Aplicativos</string>
+    <string name="popup_share_to_other_app">Encaminhar para outro aplicativo</string>
     <string name="post_tweet_success">Publicação com sucesso</string>
     <string name="presence_overrided">Você já está logado em outro aparelho. Por favor, reinicie o Cubie Lite.</string>
     <string name="press_enter_to_send_title">Pressionar ENTER no teclado envia a mensagem</string>
@@ -1152,7 +1152,7 @@ da sua conta"</string>
     <string name="sticker_setting_and_download">Loja de Sticker</string>
     <string name="sticker_shop_reload">Recarregar</string>
     <string name="sticker_shop_title">Loja de Sticker</string>
-    <string name="sticker_single_downloading">Downloading stickers. Please wait.</string>
+    <string name="sticker_single_downloading">Baixando stickers</string>
     <string name="sub_account_cubie_id_title">Cubie ID:</string>
     <string name="sub_account_download_desktop">Visite essa página no seu computador para instalar a extensão do Google Chrome:</string>
     <string name="sub_account_pincode_desc">Você precisa digitar o código Pin ao logar no Cubie Lite. Pincodes são descartados a cada 2 minutos.</string>
@@ -1190,8 +1190,8 @@ da sua conta"</string>
     <string name="unknown_please_upgrade">Conteúdo indisponível</string>
     <string name="unknown_sticker">Novos stickers! Clique aqui para baixar agora!</string>
     <string name="unread_message_with_count">%1$s mensagens não lidas</string>
-    <string name="unread_messages">Unread Messages</string>
-    <string name="unread_messages_with_count">%1$s unread messages</string>
+    <string name="unread_messages">Mensagens não lidas</string>
+    <string name="unread_messages_with_count">%1$s mensagens não lidas</string>
     <string name="unsubscribe_channel">Unsubscribe</string>
     <string name="unsubscribe_channel_dialog_message">Unsubscribe from %1$s</string>
     <string name="unsubscribe_channel_success">Successfully unsubscribed from %1$s</string>
