@@ -766,7 +766,7 @@ O celular ainda exibirá notificações.
     <string name="location_loading">Carregando endereço</string>
     <string name="location_no_address_title">Endereço não encontrado. Enviar mesmo assim?</string>
     <string name="location_not_found">Localização não encontrada</string>
-    <string name="location_search_placeholder">Buscar um local</string>
+    <string name="location_search_placeholder">Procurar um local</string>
     <string name="location_unknown">Local desconhecido</string>
     <string name="login">Log in</string>
     <string name="login_fail">Falha de login. Verifique novamente.</string>
@@ -920,7 +920,7 @@ para poder criar tópicos e postar."</string>
     <string name="popup_copy">Copiar</string>
     <string name="popup_copy_address">Copiar Endereço</string>
     <string name="popup_delete">Excluir</string>
-    <string name="popup_delete_message_and_file">Delete message and photo</string>
+    <string name="popup_delete_message_and_file">Deletar foto e mensagem</string>
     <string name="popup_edit_photo">Editar foto</string>
     <string name="popup_forward">Encaminhar</string>
     <string name="popup_invite_friend_message">The more friends you have, the more fun it is! Invite some already!</string>
@@ -1207,7 +1207,7 @@ da sua conta"</string>
     <string name="use_native_gallery_title">Usar Galeria do celular</string>
     <string name="username_hint">Insira a ID do seu amigo:</string>
     <string name="username_or_nickname_hint">Digite o nome do amigo</string>
-    <string name="using_external_app">View in another application</string>
+    <string name="using_external_app">Reproduzir em outro aplicativo</string>
     <string name="verify_pincode">Entrar</string>
     <string name="verify_pincode_title">Verifique o Código Pin</string>
     <string name="version_incompatible_error_exception">Versão incompatível, instale a versão mais recente do Cubie e tente novamente.</string>
@@ -1288,7 +1288,7 @@ do áudio em Configurações → Chat"</string>
     <string name="youtube_clear_search_history">Limpar histórico de pesquisa</string>
     <string name="youtube_now_playing">Assistindo</string>
     <string name="youtube_original_url">Assista no YouTube</string>
-    <string name="youtube_search_placeholder">Pesquisar vídeos</string>
+    <string name="youtube_search_placeholder">Procurar vídeo</string>
     <string name="youtube_tab_film">Filmes</string>
     <string name="youtube_tab_music">Música</string>
     <string name="youtube_tab_popular">Popular</string>
